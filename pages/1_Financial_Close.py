@@ -68,9 +68,10 @@ with st.expander("**Account reconciliation status** (open/closed, outstanding di
         })
     display_df = pd.DataFrame(display_rows)
     st.dataframe(display_df, use_container_width=True)
-    account_to_approve = st.selectbox("Approve account (set to Closed)", [r["Account"] for r in display_rows if r["Status"] == "Open"], key="approve_acc")
+    open_accounts = [r["Account"] for r in display_rows if r["Status"] == "Open"]
+    account_to_approve = st.selectbox("Approve account (set to Closed)", open_accounts if open_accounts else ["(none open)"], key="approve_acc")
     if st.button("Approve selected account"):
-        if account_to_approve:
+        if account_to_approve and account_to_approve != "(none open)":
             st.session_state.account_approvals[account_to_approve] = {
                 "approved_by": "Current User",
                 "approved_at": datetime.now(),
@@ -94,7 +95,7 @@ with st.expander("**Close cycle checklist** (approve with timestamp)", expanded=
     st.dataframe(checklist_df, use_container_width=True)
     step_to_approve = st.selectbox("Mark step complete", [f"{i+1}) {s}" for i, s in enumerate(ROADMAP_ITEMS)], key="check_step")
     if st.button("Mark selected step complete"):
-        idx = next(i for i, s in enumerate(ROADMAP_ITEMS) if step_to_approve.startswith(f"{i+1})"))
+        idx = next((i for i, s in enumerate(ROADMAP_ITEMS) if step_to_approve.startswith(f"{i+1})")), 0)
         st.session_state.checklist_approvals[f"step_{idx}"]] = {"approved_by": "Current User", "approved_at": datetime.now()}
         st.rerun()
 
@@ -149,7 +150,7 @@ with st.expander("**Category review** – agree with current category or suggest
             return "Professional Services"
         return "Other"
     review_df["Suggested_Category"] = review_df["Description"].apply(suggest_category)
-    review_df["Agree?"] = review_df["Current_Category"] == review_df["Suggested_Category"]
+    review_df["Agree"] = review_df["Current_Category"] == review_df["Suggested_Category"]
     st.dataframe(review_df, use_container_width=True)
     st.caption("Suggested category is based on description text. Use your judgment to agree or reclassify.")
 
@@ -175,7 +176,10 @@ with st.expander("**Automatching** – upload two files, match records, export",
             cols = list(df.columns)
             date_col = next((c for c in cols if "date" in str(c).lower()), cols[0] if cols else None)
             amount_col = next((c for c in cols if c != date_col and pd.api.types.is_numeric_dtype(df[c])), cols[-1] if cols else None)
-            desc_col = next((c for c in cols if c not in (date_col, amount_col) and df[c].dtype == object), cols[1] if len(cols) > 1 else None)
+            desc_col = next(
+                (c for c in cols if c not in (date_col, amount_col) and pd.api.types.is_object_dtype(df[c])),
+                cols[1] if len(cols) > 1 else None,
+            )
             return date_col, desc_col, amount_col
 
         d_l, desc_l, amt_l = infer_columns(df_left)
@@ -263,8 +267,8 @@ with st.expander("**Adjustments** – select account, amount, reason; submit", e
         key="adj_editor",
     )
     if st.button("Submit adjustment"):
-        valid = edited.dropna(how="all").dropna(subset=["Account"], how="all")
-        if not valid.empty and valid["Account"].astype(str).str.strip().ne("").any():
+        valid = edited[edited["Account"].astype(str).str.strip() != ""].dropna(how="all")
+        if not valid.empty:
             for _, row in valid.iterrows():
                 if str(row.get("Account", "")).strip():
                     st.session_state.adjustments_submitted.append({
