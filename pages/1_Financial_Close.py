@@ -96,7 +96,7 @@ with st.expander("**Close cycle checklist** (approve with timestamp)", expanded=
     step_to_approve = st.selectbox("Mark step complete", [f"{i+1}) {s}" for i, s in enumerate(ROADMAP_ITEMS)], key="check_step")
     if st.button("Mark selected step complete"):
         idx = next((i for i, s in enumerate(ROADMAP_ITEMS) if step_to_approve.startswith(f"{i+1})")), 0)
-        st.session_state.checklist_approvals[f"step_{idx}"]] = {"approved_by": "Current User", "approved_at": datetime.now()}
+        st.session_state.checklist_approvals[f"step_{idx}"] = {"approved_by": "Current User", "approved_at": datetime.now()}
         st.rerun()
 
 # ---------- Section 3: Financial close journey (Mermaid) + roadmap (collapsible, collapsed) ----------
