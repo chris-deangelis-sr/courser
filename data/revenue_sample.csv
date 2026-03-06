@@ -1,25 +1,1345 @@
-Date,Category,Subcategory,Amount
-2024-01-15,Managed Services,Help Desk,45000
-2024-01-15,Managed Services,Network Monitoring,28000
-2024-01-20,Cloud Services,AWS Hosting,32000
-2024-01-20,Cloud Services,Azure Services,18500
-2024-01-25,Project Revenue,Implementation,42000
-2024-01-25,Project Revenue,Migration,28000
-2024-01-28,Product Revenue,Hardware Sales,15500
-2024-01-28,Product Revenue,Software Licenses,8200
-2024-02-15,Managed Services,Help Desk,46500
-2024-02-15,Managed Services,Network Monitoring,29000
-2024-02-20,Cloud Services,AWS Hosting,33500
-2024-02-20,Cloud Services,Azure Services,19200
-2024-02-25,Project Revenue,Implementation,38000
-2024-02-25,Project Revenue,Migration,31000
-2024-02-28,Product Revenue,Hardware Sales,16800
-2024-02-28,Product Revenue,Software Licenses,9100
-2024-03-15,Managed Services,Help Desk,47800
-2024-03-15,Managed Services,Network Monitoring,29500
-2024-03-20,Cloud Services,AWS Hosting,34800
-2024-03-20,Cloud Services,Azure Services,19800
-2024-03-25,Project Revenue,Implementation,41000
-2024-03-25,Project Revenue,Migration,32500
-2024-03-28,Product Revenue,Hardware Sales,17200
-2024-03-28,Product Revenue,Software Licenses,9500
+Date,Category,Subcategory,Amount,City,State,Business_Type
+2023-07-15,Managed Services,Help Desk,6435.0,Chicago,IL,New
+2023-07-15,Project Revenue,Migration,34789.0,Boston,MA,Existing
+2023-07-15,Project Revenue,Migration,11907.0,Boston,MA,New
+2023-07-15,Project Revenue,Migration,13762.0,Atlanta,GA,Existing
+2023-07-15,Project Revenue,Migration,6255.0,Atlanta,GA,New
+2023-07-15,Project Revenue,Migration,12028.0,Seattle,WA,Existing
+2023-07-15,Project Revenue,Migration,10878.0,Seattle,WA,New
+2023-07-15,Project Revenue,Migration,39170.0,New York,NY,Existing
+2023-07-15,Project Revenue,Migration,10157.0,New York,NY,New
+2023-07-15,Project Revenue,Migration,42753.0,Dallas,TX,Existing
+2023-07-15,Project Revenue,Migration,2302.0,Dallas,TX,New
+2023-07-15,Project Revenue,Migration,17195.0,Chicago,IL,Existing
+2023-07-15,Project Revenue,Migration,5946.0,Denver,CO,New
+2023-07-15,Project Revenue,Migration,10889.0,Chicago,IL,New
+2023-07-15,Project Revenue,Implementation,3075.0,Denver,CO,New
+2023-07-15,Project Revenue,Implementation,42203.0,Boston,MA,Existing
+2023-07-15,Project Revenue,Implementation,3818.0,Boston,MA,New
+2023-07-15,Project Revenue,Implementation,31449.0,Atlanta,GA,Existing
+2023-07-15,Project Revenue,Implementation,5386.0,Atlanta,GA,New
+2023-07-15,Project Revenue,Implementation,23744.0,Seattle,WA,Existing
+2023-07-15,Project Revenue,Implementation,11522.0,Seattle,WA,New
+2023-07-15,Project Revenue,Implementation,20205.0,New York,NY,Existing
+2023-07-15,Project Revenue,Implementation,6593.0,New York,NY,New
+2023-07-15,Project Revenue,Implementation,22442.0,Dallas,TX,Existing
+2023-07-15,Project Revenue,Implementation,2747.0,Dallas,TX,New
+2023-07-15,Project Revenue,Implementation,49857.0,Denver,CO,Existing
+2023-07-15,Product Revenue,Hardware Sales,5723.0,Chicago,IL,New
+2023-07-15,Product Revenue,Hardware Sales,22436.0,Chicago,IL,Existing
+2023-07-15,Product Revenue,Hardware Sales,10412.0,Dallas,TX,New
+2023-07-15,Product Revenue,Software Licenses,15641.0,Denver,CO,Existing
+2023-07-15,Product Revenue,Software Licenses,5485.0,Denver,CO,New
+2023-07-15,Product Revenue,Software Licenses,12150.0,Boston,MA,Existing
+2023-07-15,Product Revenue,Software Licenses,4803.0,Boston,MA,New
+2023-07-15,Product Revenue,Software Licenses,40270.0,Atlanta,GA,Existing
+2023-07-15,Product Revenue,Software Licenses,6836.0,Atlanta,GA,New
+2023-07-15,Product Revenue,Software Licenses,19291.0,Seattle,WA,Existing
+2023-07-15,Product Revenue,Software Licenses,12405.0,Seattle,WA,New
+2023-07-15,Product Revenue,Software Licenses,30035.0,New York,NY,Existing
+2023-07-15,Product Revenue,Software Licenses,5761.0,New York,NY,New
+2023-07-15,Product Revenue,Software Licenses,35333.0,Dallas,TX,Existing
+2023-07-15,Product Revenue,Software Licenses,2592.0,Dallas,TX,New
+2023-07-15,Product Revenue,Software Licenses,13431.0,Chicago,IL,Existing
+2023-07-15,Product Revenue,Software Licenses,2525.0,Chicago,IL,New
+2023-07-15,Product Revenue,Hardware Sales,26677.0,Denver,CO,Existing
+2023-07-15,Product Revenue,Hardware Sales,8095.0,Denver,CO,New
+2023-07-15,Product Revenue,Hardware Sales,29423.0,Boston,MA,Existing
+2023-07-15,Product Revenue,Hardware Sales,10875.0,Boston,MA,New
+2023-07-15,Product Revenue,Hardware Sales,32219.0,Atlanta,GA,Existing
+2023-07-15,Product Revenue,Hardware Sales,10761.0,Atlanta,GA,New
+2023-07-15,Product Revenue,Hardware Sales,38517.0,Seattle,WA,Existing
+2023-07-15,Product Revenue,Hardware Sales,3579.0,Seattle,WA,New
+2023-07-15,Product Revenue,Hardware Sales,28529.0,New York,NY,Existing
+2023-07-15,Product Revenue,Hardware Sales,12177.0,New York,NY,New
+2023-07-15,Product Revenue,Hardware Sales,35380.0,Dallas,TX,Existing
+2023-07-15,Project Revenue,Implementation,17082.0,Chicago,IL,Existing
+2023-07-15,Project Revenue,Implementation,3231.0,Chicago,IL,New
+2023-07-15,Project Revenue,Migration,11594.0,Denver,CO,Existing
+2023-07-15,Cloud Services,Azure Services,8936.0,Denver,CO,New
+2023-07-15,Managed Services,Network Monitoring,41498.0,Boston,MA,Existing
+2023-07-15,Managed Services,Network Monitoring,7348.0,Boston,MA,New
+2023-07-15,Managed Services,Network Monitoring,24142.0,Atlanta,GA,Existing
+2023-07-15,Managed Services,Network Monitoring,5512.0,Atlanta,GA,New
+2023-07-15,Managed Services,Network Monitoring,14741.0,Seattle,WA,Existing
+2023-07-15,Managed Services,Network Monitoring,9093.0,Seattle,WA,New
+2023-07-15,Managed Services,Network Monitoring,21029.0,New York,NY,Existing
+2023-07-15,Managed Services,Network Monitoring,7078.0,New York,NY,New
+2023-07-15,Managed Services,Network Monitoring,30706.0,Dallas,TX,Existing
+2023-07-15,Managed Services,Network Monitoring,5648.0,Dallas,TX,New
+2023-07-15,Managed Services,Network Monitoring,4276.0,Chicago,IL,New
+2023-07-15,Managed Services,Help Desk,17759.0,Denver,CO,Existing
+2023-07-15,Managed Services,Help Desk,11563.0,Denver,CO,New
+2023-07-15,Managed Services,Help Desk,49153.0,Boston,MA,Existing
+2023-07-15,Managed Services,Help Desk,2471.0,Boston,MA,New
+2023-07-15,Managed Services,Help Desk,38303.0,Atlanta,GA,Existing
+2023-07-15,Managed Services,Help Desk,8972.0,Atlanta,GA,New
+2023-07-15,Managed Services,Help Desk,44854.0,Seattle,WA,Existing
+2023-07-15,Managed Services,Help Desk,2891.0,Seattle,WA,New
+2023-07-15,Managed Services,Help Desk,15424.0,New York,NY,Existing
+2023-07-15,Managed Services,Help Desk,3987.0,New York,NY,New
+2023-07-15,Managed Services,Help Desk,33768.0,Dallas,TX,Existing
+2023-07-15,Managed Services,Help Desk,10438.0,Dallas,TX,New
+2023-07-15,Managed Services,Help Desk,48358.0,Chicago,IL,Existing
+2023-07-15,Cloud Services,Azure Services,47162.0,Denver,CO,Existing
+2023-07-15,Managed Services,Network Monitoring,4476.0,Denver,CO,New
+2023-07-15,Managed Services,Network Monitoring,30270.0,Denver,CO,Existing
+2023-07-15,Managed Services,Network Monitoring,16560.0,Chicago,IL,Existing
+2023-07-15,Cloud Services,Azure Services,46042.0,Boston,MA,Existing
+2023-07-15,Cloud Services,AWS Hosting,8875.0,Chicago,IL,New
+2023-07-15,Cloud Services,Azure Services,12762.0,Boston,MA,New
+2023-07-15,Cloud Services,Azure Services,41082.0,Atlanta,GA,Existing
+2023-07-15,Cloud Services,Azure Services,13099.0,Atlanta,GA,New
+2023-07-15,Cloud Services,Azure Services,16620.0,Seattle,WA,Existing
+2023-07-15,Cloud Services,Azure Services,8363.0,Seattle,WA,New
+2023-07-15,Cloud Services,Azure Services,30512.0,New York,NY,Existing
+2023-07-15,Cloud Services,Azure Services,5731.0,New York,NY,New
+2023-07-15,Cloud Services,Azure Services,5138.0,Dallas,TX,New
+2023-07-15,Cloud Services,Azure Services,46642.0,Chicago,IL,Existing
+2023-07-15,Cloud Services,Azure Services,2625.0,Chicago,IL,New
+2023-07-15,Cloud Services,AWS Hosting,29480.0,Denver,CO,Existing
+2023-07-15,Cloud Services,Azure Services,36415.0,Dallas,TX,Existing
+2023-07-15,Cloud Services,AWS Hosting,27200.0,Boston,MA,Existing
+2023-07-15,Cloud Services,AWS Hosting,10885.0,Chicago,IL,Existing
+2023-07-15,Cloud Services,AWS Hosting,3607.0,Denver,CO,New
+2023-07-15,Cloud Services,AWS Hosting,16027.0,Dallas,TX,Existing
+2023-07-15,Cloud Services,AWS Hosting,2969.0,New York,NY,New
+2023-07-15,Cloud Services,AWS Hosting,48282.0,New York,NY,Existing
+2023-07-15,Cloud Services,AWS Hosting,13055.0,Seattle,WA,New
+2023-07-15,Cloud Services,AWS Hosting,9045.0,Dallas,TX,New
+2023-07-15,Cloud Services,AWS Hosting,5652.0,Atlanta,GA,New
+2023-07-15,Cloud Services,AWS Hosting,13008.0,Atlanta,GA,Existing
+2023-07-15,Cloud Services,AWS Hosting,9903.0,Boston,MA,New
+2023-07-15,Cloud Services,AWS Hosting,42460.0,Seattle,WA,Existing
+2023-08-15,Project Revenue,Migration,5221.0,Dallas,TX,New
+2023-08-15,Project Revenue,Migration,6145.0,Denver,CO,New
+2023-08-15,Project Revenue,Migration,35824.0,Boston,MA,Existing
+2023-08-15,Project Revenue,Migration,12545.0,Boston,MA,New
+2023-08-15,Project Revenue,Migration,46965.0,Atlanta,GA,Existing
+2023-08-15,Project Revenue,Migration,3341.0,Atlanta,GA,New
+2023-08-15,Project Revenue,Migration,19321.0,Seattle,WA,Existing
+2023-08-15,Project Revenue,Migration,8318.0,Seattle,WA,New
+2023-08-15,Project Revenue,Migration,32538.0,New York,NY,Existing
+2023-08-15,Project Revenue,Migration,11596.0,New York,NY,New
+2023-08-15,Project Revenue,Migration,36958.0,Dallas,TX,Existing
+2023-08-15,Project Revenue,Migration,46126.0,Chicago,IL,Existing
+2023-08-15,Project Revenue,Implementation,10004.0,Dallas,TX,New
+2023-08-15,Project Revenue,Implementation,13906.0,Denver,CO,Existing
+2023-08-15,Project Revenue,Implementation,6168.0,Denver,CO,New
+2023-08-15,Project Revenue,Implementation,14921.0,Boston,MA,Existing
+2023-08-15,Project Revenue,Implementation,12959.0,Boston,MA,New
+2023-08-15,Project Revenue,Implementation,25432.0,Atlanta,GA,Existing
+2023-08-15,Project Revenue,Implementation,10157.0,Atlanta,GA,New
+2023-08-15,Project Revenue,Implementation,16475.0,Seattle,WA,Existing
+2023-08-15,Project Revenue,Implementation,9635.0,Seattle,WA,New
+2023-08-15,Project Revenue,Implementation,18674.0,New York,NY,Existing
+2023-08-15,Project Revenue,Implementation,8118.0,New York,NY,New
+2023-08-15,Project Revenue,Implementation,9820.0,Dallas,TX,Existing
+2023-08-15,Project Revenue,Migration,23850.0,Denver,CO,Existing
+2023-08-15,Project Revenue,Migration,12822.0,Chicago,IL,New
+2023-08-15,Product Revenue,Hardware Sales,10556.0,Chicago,IL,New
+2023-08-15,Product Revenue,Software Licenses,24630.0,Denver,CO,Existing
+2023-08-15,Product Revenue,Hardware Sales,12393.0,Dallas,TX,New
+2023-08-15,Project Revenue,Implementation,34044.0,Chicago,IL,Existing
+2023-08-15,Product Revenue,Software Licenses,3348.0,Denver,CO,New
+2023-08-15,Product Revenue,Software Licenses,33091.0,Boston,MA,Existing
+2023-08-15,Product Revenue,Software Licenses,9777.0,Boston,MA,New
+2023-08-15,Product Revenue,Software Licenses,44940.0,Atlanta,GA,Existing
+2023-08-15,Product Revenue,Software Licenses,9686.0,Atlanta,GA,New
+2023-08-15,Product Revenue,Software Licenses,40607.0,Seattle,WA,Existing
+2023-08-15,Product Revenue,Software Licenses,5990.0,Seattle,WA,New
+2023-08-15,Product Revenue,Software Licenses,19127.0,New York,NY,Existing
+2023-08-15,Product Revenue,Software Licenses,10399.0,New York,NY,New
+2023-08-15,Product Revenue,Software Licenses,18580.0,Dallas,TX,Existing
+2023-08-15,Product Revenue,Software Licenses,9712.0,Dallas,TX,New
+2023-08-15,Product Revenue,Software Licenses,38304.0,Chicago,IL,Existing
+2023-08-15,Product Revenue,Software Licenses,8536.0,Chicago,IL,New
+2023-08-15,Product Revenue,Hardware Sales,15903.0,Denver,CO,Existing
+2023-08-15,Product Revenue,Hardware Sales,2338.0,Denver,CO,New
+2023-08-15,Product Revenue,Hardware Sales,37107.0,Boston,MA,Existing
+2023-08-15,Product Revenue,Hardware Sales,3437.0,Boston,MA,New
+2023-08-15,Product Revenue,Hardware Sales,9508.0,Atlanta,GA,Existing
+2023-08-15,Product Revenue,Hardware Sales,9193.0,Atlanta,GA,New
+2023-08-15,Product Revenue,Hardware Sales,47021.0,Seattle,WA,Existing
+2023-08-15,Product Revenue,Hardware Sales,4123.0,Seattle,WA,New
+2023-08-15,Product Revenue,Hardware Sales,12669.0,New York,NY,Existing
+2023-08-15,Product Revenue,Hardware Sales,9599.0,New York,NY,New
+2023-08-15,Product Revenue,Hardware Sales,42015.0,Dallas,TX,Existing
+2023-08-15,Product Revenue,Hardware Sales,46960.0,Chicago,IL,Existing
+2023-08-15,Project Revenue,Implementation,2745.0,Chicago,IL,New
+2023-08-15,Managed Services,Network Monitoring,50110.0,Denver,CO,Existing
+2023-08-15,Cloud Services,Azure Services,5937.0,Denver,CO,New
+2023-08-15,Managed Services,Network Monitoring,8194.0,Boston,MA,New
+2023-08-15,Managed Services,Network Monitoring,22753.0,Atlanta,GA,Existing
+2023-08-15,Managed Services,Network Monitoring,13029.0,Atlanta,GA,New
+2023-08-15,Managed Services,Network Monitoring,23361.0,Seattle,WA,Existing
+2023-08-15,Managed Services,Network Monitoring,3646.0,Seattle,WA,New
+2023-08-15,Managed Services,Network Monitoring,18489.0,New York,NY,Existing
+2023-08-15,Managed Services,Network Monitoring,7038.0,New York,NY,New
+2023-08-15,Managed Services,Network Monitoring,30663.0,Dallas,TX,Existing
+2023-08-15,Managed Services,Network Monitoring,2359.0,Dallas,TX,New
+2023-08-15,Managed Services,Network Monitoring,45426.0,Chicago,IL,Existing
+2023-08-15,Managed Services,Network Monitoring,11605.0,Chicago,IL,New
+2023-08-15,Managed Services,Help Desk,27135.0,Denver,CO,Existing
+2023-08-15,Managed Services,Help Desk,4878.0,Denver,CO,New
+2023-08-15,Managed Services,Help Desk,13762.0,Boston,MA,Existing
+2023-08-15,Managed Services,Help Desk,5905.0,Boston,MA,New
+2023-08-15,Managed Services,Help Desk,46917.0,Atlanta,GA,Existing
+2023-08-15,Managed Services,Help Desk,11485.0,Atlanta,GA,New
+2023-08-15,Managed Services,Help Desk,31869.0,Seattle,WA,Existing
+2023-08-15,Managed Services,Help Desk,12455.0,Seattle,WA,New
+2023-08-15,Managed Services,Help Desk,16990.0,New York,NY,Existing
+2023-08-15,Managed Services,Help Desk,11442.0,New York,NY,New
+2023-08-15,Managed Services,Help Desk,45878.0,Dallas,TX,Existing
+2023-08-15,Managed Services,Help Desk,9501.0,Dallas,TX,New
+2023-08-15,Managed Services,Help Desk,43207.0,Chicago,IL,Existing
+2023-08-15,Cloud Services,Azure Services,16987.0,Denver,CO,Existing
+2023-08-15,Managed Services,Network Monitoring,38773.0,Boston,MA,Existing
+2023-08-15,Managed Services,Network Monitoring,6425.0,Denver,CO,New
+2023-08-15,Managed Services,Help Desk,12879.0,Chicago,IL,New
+2023-08-15,Cloud Services,AWS Hosting,13252.0,Chicago,IL,New
+2023-08-15,Cloud Services,Azure Services,3309.0,Boston,MA,New
+2023-08-15,Cloud Services,Azure Services,31719.0,Atlanta,GA,Existing
+2023-08-15,Cloud Services,Azure Services,9502.0,Atlanta,GA,New
+2023-08-15,Cloud Services,Azure Services,35791.0,Seattle,WA,Existing
+2023-08-15,Cloud Services,Azure Services,6473.0,Seattle,WA,New
+2023-08-15,Cloud Services,Azure Services,39836.0,New York,NY,Existing
+2023-08-15,Cloud Services,Azure Services,4989.0,New York,NY,New
+2023-08-15,Cloud Services,Azure Services,41245.0,Dallas,TX,Existing
+2023-08-15,Cloud Services,Azure Services,9942.0,Dallas,TX,New
+2023-08-15,Cloud Services,Azure Services,19330.0,Chicago,IL,Existing
+2023-08-15,Cloud Services,Azure Services,13516.0,Chicago,IL,New
+2023-08-15,Cloud Services,AWS Hosting,29765.0,Denver,CO,Existing
+2023-08-15,Cloud Services,Azure Services,44353.0,Boston,MA,Existing
+2023-08-15,Cloud Services,AWS Hosting,19225.0,Boston,MA,Existing
+2023-08-15,Cloud Services,AWS Hosting,12634.0,Boston,MA,New
+2023-08-15,Cloud Services,AWS Hosting,20873.0,Atlanta,GA,Existing
+2023-08-15,Cloud Services,AWS Hosting,2867.0,Atlanta,GA,New
+2023-08-15,Cloud Services,AWS Hosting,30323.0,Seattle,WA,Existing
+2023-08-15,Cloud Services,AWS Hosting,9229.0,Seattle,WA,New
+2023-08-15,Cloud Services,AWS Hosting,10676.0,New York,NY,Existing
+2023-08-15,Cloud Services,AWS Hosting,5527.0,New York,NY,New
+2023-08-15,Cloud Services,AWS Hosting,21811.0,Dallas,TX,Existing
+2023-08-15,Cloud Services,AWS Hosting,7949.0,Dallas,TX,New
+2023-08-15,Cloud Services,AWS Hosting,19740.0,Chicago,IL,Existing
+2023-08-15,Cloud Services,AWS Hosting,3932.0,Denver,CO,New
+2023-09-15,Project Revenue,Migration,11252.0,Dallas,TX,New
+2023-09-15,Project Revenue,Migration,18543.0,Dallas,TX,Existing
+2023-09-15,Project Revenue,Migration,9546.0,New York,NY,New
+2023-09-15,Project Revenue,Migration,12943.0,New York,NY,Existing
+2023-09-15,Project Revenue,Migration,51164.0,Boston,MA,Existing
+2023-09-15,Project Revenue,Migration,32086.0,Seattle,WA,Existing
+2023-09-15,Project Revenue,Migration,8591.0,Atlanta,GA,New
+2023-09-15,Project Revenue,Migration,36638.0,Atlanta,GA,Existing
+2023-09-15,Project Revenue,Migration,10743.0,Boston,MA,New
+2023-09-15,Project Revenue,Migration,31695.0,Chicago,IL,Existing
+2023-09-15,Project Revenue,Migration,2920.0,Seattle,WA,New
+2023-09-15,Project Revenue,Migration,3794.0,Chicago,IL,New
+2023-09-15,Project Revenue,Implementation,5644.0,Atlanta,GA,New
+2023-09-15,Project Revenue,Implementation,11862.0,Denver,CO,New
+2023-09-15,Project Revenue,Implementation,10883.0,Boston,MA,Existing
+2023-09-15,Project Revenue,Implementation,2674.0,Boston,MA,New
+2023-09-15,Project Revenue,Implementation,34639.0,Atlanta,GA,Existing
+2023-09-15,Project Revenue,Implementation,32570.0,Seattle,WA,Existing
+2023-09-15,Project Revenue,Implementation,7721.0,Seattle,WA,New
+2023-09-15,Project Revenue,Implementation,10823.0,New York,NY,Existing
+2023-09-15,Project Revenue,Implementation,9028.0,New York,NY,New
+2023-09-15,Project Revenue,Implementation,13314.0,Dallas,TX,Existing
+2023-09-15,Project Revenue,Implementation,6677.0,Dallas,TX,New
+2023-09-15,Project Revenue,Migration,8309.0,Denver,CO,New
+2023-09-15,Project Revenue,Implementation,24739.0,Denver,CO,Existing
+2023-09-15,Product Revenue,Hardware Sales,11544.0,Chicago,IL,New
+2023-09-15,Product Revenue,Hardware Sales,39950.0,Denver,CO,Existing
+2023-09-15,Product Revenue,Hardware Sales,7412.0,Dallas,TX,New
+2023-09-15,Product Revenue,Software Licenses,11028.0,Denver,CO,Existing
+2023-09-15,Product Revenue,Software Licenses,2854.0,Denver,CO,New
+2023-09-15,Product Revenue,Software Licenses,14262.0,Boston,MA,Existing
+2023-09-15,Product Revenue,Software Licenses,2487.0,Boston,MA,New
+2023-09-15,Product Revenue,Software Licenses,41807.0,Atlanta,GA,Existing
+2023-09-15,Product Revenue,Software Licenses,6449.0,Atlanta,GA,New
+2023-09-15,Product Revenue,Software Licenses,19913.0,Seattle,WA,Existing
+2023-09-15,Product Revenue,Software Licenses,7187.0,Seattle,WA,New
+2023-09-15,Product Revenue,Software Licenses,35535.0,New York,NY,Existing
+2023-09-15,Product Revenue,Software Licenses,8751.0,New York,NY,New
+2023-09-15,Product Revenue,Software Licenses,40951.0,Dallas,TX,Existing
+2023-09-15,Product Revenue,Software Licenses,13396.0,Dallas,TX,New
+2023-09-15,Product Revenue,Software Licenses,21295.0,Chicago,IL,Existing
+2023-09-15,Product Revenue,Software Licenses,9978.0,Chicago,IL,New
+2023-09-15,Project Revenue,Implementation,23787.0,Chicago,IL,Existing
+2023-09-15,Product Revenue,Hardware Sales,8691.0,Denver,CO,New
+2023-09-15,Product Revenue,Hardware Sales,20020.0,Boston,MA,Existing
+2023-09-15,Product Revenue,Hardware Sales,4135.0,Boston,MA,New
+2023-09-15,Product Revenue,Hardware Sales,16718.0,Atlanta,GA,Existing
+2023-09-15,Product Revenue,Hardware Sales,7064.0,Atlanta,GA,New
+2023-09-15,Product Revenue,Hardware Sales,39151.0,Seattle,WA,Existing
+2023-09-15,Product Revenue,Hardware Sales,12017.0,Seattle,WA,New
+2023-09-15,Product Revenue,Hardware Sales,50597.0,New York,NY,Existing
+2023-09-15,Product Revenue,Hardware Sales,2614.0,New York,NY,New
+2023-09-15,Product Revenue,Hardware Sales,12647.0,Dallas,TX,Existing
+2023-09-15,Product Revenue,Hardware Sales,20904.0,Chicago,IL,Existing
+2023-09-15,Project Revenue,Implementation,12644.0,Chicago,IL,New
+2023-09-15,Project Revenue,Migration,23141.0,Denver,CO,Existing
+2023-09-15,Cloud Services,Azure Services,10463.0,Denver,CO,New
+2023-09-15,Managed Services,Network Monitoring,45891.0,Boston,MA,Existing
+2023-09-15,Managed Services,Network Monitoring,13498.0,Boston,MA,New
+2023-09-15,Managed Services,Network Monitoring,50769.0,Atlanta,GA,Existing
+2023-09-15,Managed Services,Network Monitoring,7287.0,Atlanta,GA,New
+2023-09-15,Managed Services,Network Monitoring,49123.0,Seattle,WA,Existing
+2023-09-15,Managed Services,Network Monitoring,2499.0,Seattle,WA,New
+2023-09-15,Managed Services,Network Monitoring,25167.0,New York,NY,Existing
+2023-09-15,Managed Services,Network Monitoring,12932.0,New York,NY,New
+2023-09-15,Managed Services,Network Monitoring,50223.0,Dallas,TX,Existing
+2023-09-15,Managed Services,Network Monitoring,13229.0,Dallas,TX,New
+2023-09-15,Managed Services,Network Monitoring,16882.0,Chicago,IL,Existing
+2023-09-15,Managed Services,Network Monitoring,9807.0,Chicago,IL,New
+2023-09-15,Managed Services,Help Desk,10324.0,Denver,CO,Existing
+2023-09-15,Managed Services,Help Desk,5577.0,Denver,CO,New
+2023-09-15,Managed Services,Help Desk,40288.0,Boston,MA,Existing
+2023-09-15,Managed Services,Help Desk,4585.0,Boston,MA,New
+2023-09-15,Managed Services,Help Desk,30419.0,Atlanta,GA,Existing
+2023-09-15,Managed Services,Help Desk,9012.0,Atlanta,GA,New
+2023-09-15,Managed Services,Help Desk,30853.0,Seattle,WA,Existing
+2023-09-15,Managed Services,Help Desk,11540.0,Seattle,WA,New
+2023-09-15,Managed Services,Help Desk,36368.0,New York,NY,Existing
+2023-09-15,Managed Services,Help Desk,12668.0,New York,NY,New
+2023-09-15,Managed Services,Help Desk,26152.0,Dallas,TX,Existing
+2023-09-15,Managed Services,Help Desk,13607.0,Dallas,TX,New
+2023-09-15,Managed Services,Help Desk,19752.0,Chicago,IL,Existing
+2023-09-15,Managed Services,Network Monitoring,5736.0,Denver,CO,New
+2023-09-15,Managed Services,Network Monitoring,25808.0,Denver,CO,Existing
+2023-09-15,Managed Services,Help Desk,5396.0,Chicago,IL,New
+2023-09-15,Cloud Services,AWS Hosting,12193.0,Chicago,IL,New
+2023-09-15,Cloud Services,Azure Services,37176.0,Boston,MA,Existing
+2023-09-15,Cloud Services,Azure Services,11580.0,Boston,MA,New
+2023-09-15,Cloud Services,Azure Services,30805.0,Atlanta,GA,Existing
+2023-09-15,Cloud Services,Azure Services,8252.0,Atlanta,GA,New
+2023-09-15,Cloud Services,Azure Services,48476.0,Seattle,WA,Existing
+2023-09-15,Cloud Services,Azure Services,12378.0,Seattle,WA,New
+2023-09-15,Cloud Services,Azure Services,44050.0,New York,NY,Existing
+2023-09-15,Cloud Services,Azure Services,43435.0,Denver,CO,Existing
+2023-09-15,Cloud Services,Azure Services,21881.0,Dallas,TX,Existing
+2023-09-15,Cloud Services,Azure Services,6490.0,Dallas,TX,New
+2023-09-15,Cloud Services,Azure Services,39431.0,Chicago,IL,Existing
+2023-09-15,Cloud Services,Azure Services,10405.0,Chicago,IL,New
+2023-09-15,Cloud Services,Azure Services,11709.0,New York,NY,New
+2023-09-15,Cloud Services,AWS Hosting,12498.0,Denver,CO,New
+2023-09-15,Cloud Services,AWS Hosting,41074.0,Denver,CO,Existing
+2023-09-15,Cloud Services,AWS Hosting,4286.0,Dallas,TX,New
+2023-09-15,Cloud Services,AWS Hosting,33178.0,Dallas,TX,Existing
+2023-09-15,Cloud Services,AWS Hosting,13179.0,New York,NY,New
+2023-09-15,Cloud Services,AWS Hosting,39154.0,New York,NY,Existing
+2023-09-15,Cloud Services,AWS Hosting,22882.0,Chicago,IL,Existing
+2023-09-15,Cloud Services,AWS Hosting,13451.0,Seattle,WA,Existing
+2023-09-15,Cloud Services,AWS Hosting,9454.0,Atlanta,GA,New
+2023-09-15,Cloud Services,AWS Hosting,51773.0,Atlanta,GA,Existing
+2023-09-15,Cloud Services,AWS Hosting,3945.0,Boston,MA,New
+2023-09-15,Cloud Services,AWS Hosting,31527.0,Boston,MA,Existing
+2023-09-15,Cloud Services,AWS Hosting,8933.0,Seattle,WA,New
+2023-10-15,Project Revenue,Migration,13044.0,Dallas,TX,New
+2023-10-15,Project Revenue,Migration,13426.0,Dallas,TX,Existing
+2023-10-15,Project Revenue,Migration,6128.0,New York,NY,New
+2023-10-15,Project Revenue,Migration,50920.0,New York,NY,Existing
+2023-10-15,Project Revenue,Migration,9816.0,Atlanta,GA,New
+2023-10-15,Project Revenue,Migration,34476.0,Seattle,WA,Existing
+2023-10-15,Project Revenue,Migration,29019.0,Atlanta,GA,Existing
+2023-10-15,Project Revenue,Migration,5820.0,Boston,MA,New
+2023-10-15,Project Revenue,Migration,23789.0,Boston,MA,Existing
+2023-10-15,Project Revenue,Migration,13577.0,Seattle,WA,New
+2023-10-15,Project Revenue,Migration,9913.0,Chicago,IL,Existing
+2023-10-15,Project Revenue,Implementation,6381.0,Dallas,TX,New
+2023-10-15,Project Revenue,Implementation,48539.0,Denver,CO,Existing
+2023-10-15,Project Revenue,Implementation,6137.0,Denver,CO,New
+2023-10-15,Project Revenue,Implementation,45523.0,Boston,MA,Existing
+2023-10-15,Project Revenue,Implementation,8322.0,Boston,MA,New
+2023-10-15,Project Revenue,Implementation,48845.0,Atlanta,GA,Existing
+2023-10-15,Project Revenue,Implementation,3577.0,Atlanta,GA,New
+2023-10-15,Project Revenue,Implementation,42383.0,Seattle,WA,Existing
+2023-10-15,Project Revenue,Implementation,11220.0,Seattle,WA,New
+2023-10-15,Project Revenue,Implementation,28170.0,New York,NY,Existing
+2023-10-15,Project Revenue,Implementation,12489.0,New York,NY,New
+2023-10-15,Project Revenue,Implementation,50077.0,Dallas,TX,Existing
+2023-10-15,Project Revenue,Migration,10296.0,Denver,CO,New
+2023-10-15,Project Revenue,Migration,6953.0,Chicago,IL,New
+2023-10-15,Project Revenue,Migration,42289.0,Denver,CO,Existing
+2023-10-15,Product Revenue,Hardware Sales,13855.0,Denver,CO,Existing
+2023-10-15,Product Revenue,Hardware Sales,43915.0,Chicago,IL,Existing
+2023-10-15,Project Revenue,Implementation,43338.0,Chicago,IL,Existing
+2023-10-15,Product Revenue,Software Licenses,13995.0,Denver,CO,New
+2023-10-15,Product Revenue,Software Licenses,50797.0,Boston,MA,Existing
+2023-10-15,Product Revenue,Software Licenses,11951.0,Boston,MA,New
+2023-10-15,Product Revenue,Software Licenses,25622.0,Atlanta,GA,Existing
+2023-10-15,Product Revenue,Software Licenses,6776.0,Atlanta,GA,New
+2023-10-15,Product Revenue,Software Licenses,52517.0,Seattle,WA,Existing
+2023-10-15,Product Revenue,Software Licenses,3361.0,Seattle,WA,New
+2023-10-15,Product Revenue,Software Licenses,12992.0,New York,NY,Existing
+2023-10-15,Product Revenue,Software Licenses,10694.0,New York,NY,New
+2023-10-15,Product Revenue,Software Licenses,45322.0,Dallas,TX,Existing
+2023-10-15,Product Revenue,Software Licenses,3219.0,Dallas,TX,New
+2023-10-15,Product Revenue,Software Licenses,40044.0,Chicago,IL,Existing
+2023-10-15,Product Revenue,Software Licenses,3352.0,Chicago,IL,New
+2023-10-15,Product Revenue,Hardware Sales,9655.0,Denver,CO,New
+2023-10-15,Product Revenue,Hardware Sales,42688.0,Boston,MA,Existing
+2023-10-15,Product Revenue,Hardware Sales,4047.0,Boston,MA,New
+2023-10-15,Product Revenue,Hardware Sales,14551.0,Atlanta,GA,Existing
+2023-10-15,Product Revenue,Hardware Sales,6501.0,Atlanta,GA,New
+2023-10-15,Product Revenue,Hardware Sales,48197.0,Seattle,WA,Existing
+2023-10-15,Product Revenue,Hardware Sales,7570.0,Seattle,WA,New
+2023-10-15,Product Revenue,Hardware Sales,33432.0,New York,NY,Existing
+2023-10-15,Product Revenue,Hardware Sales,3039.0,New York,NY,New
+2023-10-15,Product Revenue,Hardware Sales,31026.0,Dallas,TX,Existing
+2023-10-15,Product Revenue,Hardware Sales,3436.0,Dallas,TX,New
+2023-10-15,Product Revenue,Hardware Sales,11701.0,Chicago,IL,New
+2023-10-15,Project Revenue,Implementation,6750.0,Chicago,IL,New
+2023-10-15,Product Revenue,Software Licenses,42332.0,Denver,CO,Existing
+2023-10-15,Cloud Services,Azure Services,14048.0,Denver,CO,New
+2023-10-15,Managed Services,Network Monitoring,6940.0,Boston,MA,New
+2023-10-15,Managed Services,Network Monitoring,34565.0,Atlanta,GA,Existing
+2023-10-15,Managed Services,Network Monitoring,13455.0,Atlanta,GA,New
+2023-10-15,Managed Services,Network Monitoring,35015.0,Seattle,WA,Existing
+2023-10-15,Managed Services,Network Monitoring,2673.0,Seattle,WA,New
+2023-10-15,Managed Services,Network Monitoring,37488.0,New York,NY,Existing
+2023-10-15,Managed Services,Network Monitoring,3193.0,New York,NY,New
+2023-10-15,Managed Services,Network Monitoring,16554.0,Dallas,TX,Existing
+2023-10-15,Managed Services,Network Monitoring,10133.0,Dallas,TX,New
+2023-10-15,Managed Services,Network Monitoring,46834.0,Chicago,IL,Existing
+2023-10-15,Managed Services,Network Monitoring,8297.0,Chicago,IL,New
+2023-10-15,Managed Services,Help Desk,36765.0,Denver,CO,Existing
+2023-10-15,Managed Services,Help Desk,6780.0,Denver,CO,New
+2023-10-15,Managed Services,Help Desk,11418.0,Boston,MA,Existing
+2023-10-15,Managed Services,Help Desk,9854.0,Boston,MA,New
+2023-10-15,Managed Services,Help Desk,36328.0,Atlanta,GA,Existing
+2023-10-15,Managed Services,Help Desk,7062.0,Atlanta,GA,New
+2023-10-15,Managed Services,Help Desk,28382.0,Seattle,WA,Existing
+2023-10-15,Managed Services,Help Desk,4404.0,Seattle,WA,New
+2023-10-15,Managed Services,Help Desk,30112.0,New York,NY,Existing
+2023-10-15,Managed Services,Help Desk,8161.0,New York,NY,New
+2023-10-15,Managed Services,Help Desk,13711.0,Dallas,TX,Existing
+2023-10-15,Managed Services,Help Desk,7955.0,Dallas,TX,New
+2023-10-15,Managed Services,Help Desk,40162.0,Chicago,IL,Existing
+2023-10-15,Managed Services,Help Desk,12454.0,Chicago,IL,New
+2023-10-15,Managed Services,Network Monitoring,37526.0,Boston,MA,Existing
+2023-10-15,Managed Services,Network Monitoring,7767.0,Denver,CO,New
+2023-10-15,Cloud Services,Azure Services,27455.0,Denver,CO,Existing
+2023-10-15,Cloud Services,AWS Hosting,13469.0,Chicago,IL,New
+2023-10-15,Managed Services,Network Monitoring,33262.0,Denver,CO,Existing
+2023-10-15,Cloud Services,Azure Services,44666.0,Boston,MA,Existing
+2023-10-15,Cloud Services,Azure Services,11217.0,Boston,MA,New
+2023-10-15,Cloud Services,Azure Services,17187.0,Atlanta,GA,Existing
+2023-10-15,Cloud Services,Azure Services,5688.0,Atlanta,GA,New
+2023-10-15,Cloud Services,Azure Services,44520.0,Seattle,WA,Existing
+2023-10-15,Cloud Services,Azure Services,11034.0,Seattle,WA,New
+2023-10-15,Cloud Services,Azure Services,9782.0,New York,NY,New
+2023-10-15,Cloud Services,Azure Services,39860.0,Dallas,TX,Existing
+2023-10-15,Cloud Services,Azure Services,3754.0,Dallas,TX,New
+2023-10-15,Cloud Services,Azure Services,21746.0,Chicago,IL,Existing
+2023-10-15,Cloud Services,Azure Services,11971.0,Chicago,IL,New
+2023-10-15,Cloud Services,Azure Services,47750.0,New York,NY,Existing
+2023-10-15,Cloud Services,AWS Hosting,12330.0,Denver,CO,New
+2023-10-15,Cloud Services,AWS Hosting,10456.0,Denver,CO,Existing
+2023-10-15,Cloud Services,AWS Hosting,13702.0,Dallas,TX,New
+2023-10-15,Cloud Services,AWS Hosting,48968.0,Dallas,TX,Existing
+2023-10-15,Cloud Services,AWS Hosting,4670.0,New York,NY,New
+2023-10-15,Cloud Services,AWS Hosting,3549.0,Seattle,WA,New
+2023-10-15,Cloud Services,AWS Hosting,12468.0,New York,NY,Existing
+2023-10-15,Cloud Services,AWS Hosting,26297.0,Chicago,IL,Existing
+2023-10-15,Cloud Services,AWS Hosting,3474.0,Atlanta,GA,New
+2023-10-15,Cloud Services,AWS Hosting,39260.0,Atlanta,GA,Existing
+2023-10-15,Cloud Services,AWS Hosting,3200.0,Boston,MA,New
+2023-10-15,Cloud Services,AWS Hosting,23366.0,Boston,MA,Existing
+2023-10-15,Cloud Services,AWS Hosting,10236.0,Seattle,WA,Existing
+2023-11-15,Project Revenue,Migration,14039.0,New York,NY,New
+2023-11-15,Project Revenue,Migration,9530.0,Dallas,TX,New
+2023-11-15,Project Revenue,Migration,26512.0,Dallas,TX,Existing
+2023-11-15,Project Revenue,Migration,46990.0,New York,NY,Existing
+2023-11-15,Project Revenue,Migration,47994.0,Boston,MA,Existing
+2023-11-15,Project Revenue,Migration,30410.0,Seattle,WA,Existing
+2023-11-15,Project Revenue,Migration,7378.0,Atlanta,GA,New
+2023-11-15,Project Revenue,Migration,21739.0,Atlanta,GA,Existing
+2023-11-15,Project Revenue,Migration,3077.0,Boston,MA,New
+2023-11-15,Project Revenue,Migration,16279.0,Chicago,IL,Existing
+2023-11-15,Project Revenue,Migration,12460.0,Seattle,WA,New
+2023-11-15,Project Revenue,Migration,14247.0,Chicago,IL,New
+2023-11-15,Project Revenue,Implementation,16820.0,Chicago,IL,Existing
+2023-11-15,Project Revenue,Implementation,6918.0,Denver,CO,New
+2023-11-15,Project Revenue,Implementation,10771.0,Boston,MA,Existing
+2023-11-15,Project Revenue,Implementation,2943.0,Boston,MA,New
+2023-11-15,Project Revenue,Implementation,48053.0,Atlanta,GA,Existing
+2023-11-15,Project Revenue,Implementation,13593.0,Atlanta,GA,New
+2023-11-15,Project Revenue,Implementation,28170.0,Seattle,WA,Existing
+2023-11-15,Project Revenue,Implementation,9761.0,Seattle,WA,New
+2023-11-15,Project Revenue,Implementation,41822.0,New York,NY,Existing
+2023-11-15,Project Revenue,Implementation,13798.0,New York,NY,New
+2023-11-15,Project Revenue,Implementation,46121.0,Dallas,TX,Existing
+2023-11-15,Project Revenue,Implementation,13331.0,Dallas,TX,New
+2023-11-15,Project Revenue,Migration,12155.0,Denver,CO,New
+2023-11-15,Project Revenue,Implementation,45589.0,Denver,CO,Existing
+2023-11-15,Project Revenue,Migration,53987.0,Denver,CO,Existing
+2023-11-15,Product Revenue,Hardware Sales,9818.0,Denver,CO,New
+2023-11-15,Product Revenue,Hardware Sales,34261.0,Chicago,IL,Existing
+2023-11-15,Project Revenue,Implementation,10617.0,Chicago,IL,New
+2023-11-15,Product Revenue,Software Licenses,11462.0,Denver,CO,New
+2023-11-15,Product Revenue,Software Licenses,10878.0,Boston,MA,Existing
+2023-11-15,Product Revenue,Software Licenses,4008.0,Boston,MA,New
+2023-11-15,Product Revenue,Software Licenses,27515.0,Atlanta,GA,Existing
+2023-11-15,Product Revenue,Software Licenses,12920.0,Atlanta,GA,New
+2023-11-15,Product Revenue,Software Licenses,34506.0,Seattle,WA,Existing
+2023-11-15,Product Revenue,Software Licenses,9023.0,Seattle,WA,New
+2023-11-15,Product Revenue,Software Licenses,47437.0,New York,NY,Existing
+2023-11-15,Product Revenue,Software Licenses,8642.0,New York,NY,New
+2023-11-15,Product Revenue,Software Licenses,43891.0,Dallas,TX,Existing
+2023-11-15,Product Revenue,Software Licenses,8644.0,Dallas,TX,New
+2023-11-15,Product Revenue,Software Licenses,39418.0,Chicago,IL,Existing
+2023-11-15,Product Revenue,Software Licenses,3763.0,Chicago,IL,New
+2023-11-15,Product Revenue,Hardware Sales,25502.0,Denver,CO,Existing
+2023-11-15,Product Revenue,Hardware Sales,39424.0,Boston,MA,Existing
+2023-11-15,Product Revenue,Hardware Sales,5144.0,Boston,MA,New
+2023-11-15,Product Revenue,Hardware Sales,36514.0,Atlanta,GA,Existing
+2023-11-15,Product Revenue,Hardware Sales,13849.0,Atlanta,GA,New
+2023-11-15,Product Revenue,Hardware Sales,15335.0,Seattle,WA,Existing
+2023-11-15,Product Revenue,Hardware Sales,7807.0,Seattle,WA,New
+2023-11-15,Product Revenue,Hardware Sales,20582.0,New York,NY,Existing
+2023-11-15,Product Revenue,Hardware Sales,12596.0,New York,NY,New
+2023-11-15,Product Revenue,Hardware Sales,51548.0,Dallas,TX,Existing
+2023-11-15,Product Revenue,Hardware Sales,11628.0,Dallas,TX,New
+2023-11-15,Product Revenue,Hardware Sales,14360.0,Chicago,IL,New
+2023-11-15,Product Revenue,Software Licenses,37142.0,Denver,CO,Existing
+2023-11-15,Cloud Services,Azure Services,45732.0,Denver,CO,Existing
+2023-11-15,Cloud Services,Azure Services,33403.0,Boston,MA,Existing
+2023-11-15,Managed Services,Network Monitoring,52663.0,Atlanta,GA,Existing
+2023-11-15,Managed Services,Network Monitoring,2546.0,Atlanta,GA,New
+2023-11-15,Managed Services,Network Monitoring,52367.0,Seattle,WA,Existing
+2023-11-15,Managed Services,Network Monitoring,5083.0,Seattle,WA,New
+2023-11-15,Managed Services,Network Monitoring,48166.0,New York,NY,Existing
+2023-11-15,Managed Services,Network Monitoring,5829.0,New York,NY,New
+2023-11-15,Managed Services,Network Monitoring,26244.0,Dallas,TX,Existing
+2023-11-15,Managed Services,Network Monitoring,13946.0,Dallas,TX,New
+2023-11-15,Managed Services,Network Monitoring,35502.0,Chicago,IL,Existing
+2023-11-15,Managed Services,Network Monitoring,11353.0,Chicago,IL,New
+2023-11-15,Managed Services,Help Desk,3810.0,Denver,CO,New
+2023-11-15,Managed Services,Network Monitoring,2918.0,Boston,MA,New
+2023-11-15,Managed Services,Help Desk,14876.0,Boston,MA,Existing
+2023-11-15,Managed Services,Help Desk,30409.0,Atlanta,GA,Existing
+2023-11-15,Managed Services,Help Desk,2536.0,Atlanta,GA,New
+2023-11-15,Managed Services,Help Desk,31473.0,Seattle,WA,Existing
+2023-11-15,Managed Services,Help Desk,3734.0,Seattle,WA,New
+2023-11-15,Managed Services,Help Desk,49842.0,New York,NY,Existing
+2023-11-15,Managed Services,Help Desk,7491.0,New York,NY,New
+2023-11-15,Managed Services,Help Desk,34393.0,Dallas,TX,Existing
+2023-11-15,Managed Services,Help Desk,11726.0,Dallas,TX,New
+2023-11-15,Managed Services,Help Desk,13307.0,Chicago,IL,Existing
+2023-11-15,Managed Services,Help Desk,6915.0,Chicago,IL,New
+2023-11-15,Cloud Services,Azure Services,6114.0,Denver,CO,New
+2023-11-15,Managed Services,Help Desk,3076.0,Boston,MA,New
+2023-11-15,Managed Services,Network Monitoring,49167.0,Boston,MA,Existing
+2023-11-15,Managed Services,Help Desk,38425.0,Denver,CO,Existing
+2023-11-15,Managed Services,Network Monitoring,53688.0,Denver,CO,Existing
+2023-11-15,Managed Services,Network Monitoring,8732.0,Denver,CO,New
+2023-11-15,Cloud Services,Azure Services,53388.0,Atlanta,GA,Existing
+2023-11-15,Cloud Services,Azure Services,14093.0,Atlanta,GA,New
+2023-11-15,Cloud Services,Azure Services,13051.0,Seattle,WA,Existing
+2023-11-15,Cloud Services,Azure Services,9404.0,Seattle,WA,New
+2023-11-15,Cloud Services,Azure Services,25289.0,New York,NY,Existing
+2023-11-15,Cloud Services,Azure Services,7964.0,New York,NY,New
+2023-11-15,Cloud Services,Azure Services,17953.0,Dallas,TX,Existing
+2023-11-15,Cloud Services,Azure Services,5729.0,Dallas,TX,New
+2023-11-15,Cloud Services,Azure Services,37134.0,Chicago,IL,Existing
+2023-11-15,Cloud Services,Azure Services,7868.0,Chicago,IL,New
+2023-11-15,Cloud Services,AWS Hosting,49128.0,Denver,CO,Existing
+2023-11-15,Cloud Services,AWS Hosting,13805.0,Denver,CO,New
+2023-11-15,Cloud Services,Azure Services,10778.0,Boston,MA,New
+2023-11-15,Cloud Services,AWS Hosting,3286.0,Chicago,IL,New
+2023-11-15,Cloud Services,AWS Hosting,2945.0,Boston,MA,New
+2023-11-15,Cloud Services,AWS Hosting,49611.0,Atlanta,GA,Existing
+2023-11-15,Cloud Services,AWS Hosting,9412.0,Atlanta,GA,New
+2023-11-15,Cloud Services,AWS Hosting,37464.0,Seattle,WA,Existing
+2023-11-15,Cloud Services,AWS Hosting,7854.0,Seattle,WA,New
+2023-11-15,Cloud Services,AWS Hosting,40491.0,New York,NY,Existing
+2023-11-15,Cloud Services,AWS Hosting,9953.0,New York,NY,New
+2023-11-15,Cloud Services,AWS Hosting,32826.0,Dallas,TX,Existing
+2023-11-15,Cloud Services,AWS Hosting,14032.0,Dallas,TX,New
+2023-11-15,Cloud Services,AWS Hosting,34191.0,Chicago,IL,Existing
+2023-11-15,Cloud Services,AWS Hosting,22075.0,Boston,MA,Existing
+2023-12-15,Project Revenue,Migration,33780.0,Dallas,TX,Existing
+2023-12-15,Project Revenue,Migration,3747.0,New York,NY,New
+2023-12-15,Project Revenue,Migration,29956.0,New York,NY,Existing
+2023-12-15,Project Revenue,Migration,8938.0,Seattle,WA,New
+2023-12-15,Project Revenue,Migration,5020.0,Denver,CO,New
+2023-12-15,Project Revenue,Migration,5725.0,Atlanta,GA,New
+2023-12-15,Project Revenue,Migration,26791.0,Atlanta,GA,Existing
+2023-12-15,Project Revenue,Migration,2685.0,Boston,MA,New
+2023-12-15,Project Revenue,Migration,24299.0,Boston,MA,Existing
+2023-12-15,Project Revenue,Migration,8682.0,Dallas,TX,New
+2023-12-15,Project Revenue,Migration,20705.0,Seattle,WA,Existing
+2023-12-15,Project Revenue,Migration,50170.0,Chicago,IL,Existing
+2023-12-15,Project Revenue,Implementation,9983.0,Atlanta,GA,New
+2023-12-15,Project Revenue,Implementation,21155.0,Denver,CO,Existing
+2023-12-15,Project Revenue,Implementation,2888.0,Denver,CO,New
+2023-12-15,Project Revenue,Implementation,43501.0,Boston,MA,Existing
+2023-12-15,Project Revenue,Implementation,8083.0,Boston,MA,New
+2023-12-15,Project Revenue,Implementation,26413.0,Atlanta,GA,Existing
+2023-12-15,Project Revenue,Implementation,31631.0,Seattle,WA,Existing
+2023-12-15,Project Revenue,Implementation,6960.0,Seattle,WA,New
+2023-12-15,Project Revenue,Implementation,19210.0,New York,NY,Existing
+2023-12-15,Project Revenue,Implementation,4691.0,New York,NY,New
+2023-12-15,Project Revenue,Implementation,43536.0,Dallas,TX,Existing
+2023-12-15,Project Revenue,Implementation,12276.0,Dallas,TX,New
+2023-12-15,Project Revenue,Migration,11143.0,Chicago,IL,New
+2023-12-15,Project Revenue,Migration,24543.0,Denver,CO,Existing
+2023-12-15,Project Revenue,Implementation,22258.0,Chicago,IL,Existing
+2023-12-15,Product Revenue,Hardware Sales,49958.0,Chicago,IL,Existing
+2023-12-15,Product Revenue,Software Licenses,4555.0,Denver,CO,New
+2023-12-15,Product Revenue,Software Licenses,22629.0,Boston,MA,Existing
+2023-12-15,Product Revenue,Software Licenses,4716.0,Boston,MA,New
+2023-12-15,Product Revenue,Software Licenses,17013.0,Atlanta,GA,Existing
+2023-12-15,Product Revenue,Software Licenses,5441.0,Atlanta,GA,New
+2023-12-15,Product Revenue,Software Licenses,16660.0,Seattle,WA,Existing
+2023-12-15,Product Revenue,Software Licenses,3682.0,Seattle,WA,New
+2023-12-15,Product Revenue,Software Licenses,20468.0,New York,NY,Existing
+2023-12-15,Product Revenue,Software Licenses,9830.0,New York,NY,New
+2023-12-15,Product Revenue,Software Licenses,54291.0,Dallas,TX,Existing
+2023-12-15,Product Revenue,Software Licenses,6784.0,Dallas,TX,New
+2023-12-15,Product Revenue,Software Licenses,35525.0,Chicago,IL,Existing
+2023-12-15,Product Revenue,Software Licenses,10320.0,Chicago,IL,New
+2023-12-15,Product Revenue,Hardware Sales,26150.0,Denver,CO,Existing
+2023-12-15,Product Revenue,Hardware Sales,5902.0,Denver,CO,New
+2023-12-15,Product Revenue,Hardware Sales,15519.0,Boston,MA,Existing
+2023-12-15,Product Revenue,Hardware Sales,7706.0,Boston,MA,New
+2023-12-15,Product Revenue,Hardware Sales,43409.0,Atlanta,GA,Existing
+2023-12-15,Product Revenue,Hardware Sales,9599.0,Atlanta,GA,New
+2023-12-15,Product Revenue,Hardware Sales,34005.0,Seattle,WA,Existing
+2023-12-15,Product Revenue,Hardware Sales,3500.0,Seattle,WA,New
+2023-12-15,Product Revenue,Hardware Sales,32260.0,New York,NY,Existing
+2023-12-15,Product Revenue,Hardware Sales,12068.0,New York,NY,New
+2023-12-15,Product Revenue,Hardware Sales,40415.0,Dallas,TX,Existing
+2023-12-15,Product Revenue,Hardware Sales,9682.0,Dallas,TX,New
+2023-12-15,Product Revenue,Hardware Sales,3901.0,Chicago,IL,New
+2023-12-15,Project Revenue,Implementation,3185.0,Chicago,IL,New
+2023-12-15,Product Revenue,Software Licenses,50240.0,Denver,CO,Existing
+2023-12-15,Cloud Services,Azure Services,13098.0,Denver,CO,New
+2023-12-15,Managed Services,Network Monitoring,10167.0,Boston,MA,New
+2023-12-15,Managed Services,Network Monitoring,24600.0,Atlanta,GA,Existing
+2023-12-15,Managed Services,Network Monitoring,8450.0,Atlanta,GA,New
+2023-12-15,Managed Services,Network Monitoring,53999.0,Seattle,WA,Existing
+2023-12-15,Managed Services,Network Monitoring,8041.0,Seattle,WA,New
+2023-12-15,Managed Services,Network Monitoring,21417.0,New York,NY,Existing
+2023-12-15,Managed Services,Network Monitoring,8444.0,New York,NY,New
+2023-12-15,Managed Services,Network Monitoring,51586.0,Dallas,TX,Existing
+2023-12-15,Managed Services,Network Monitoring,4234.0,Dallas,TX,New
+2023-12-15,Managed Services,Network Monitoring,52621.0,Chicago,IL,Existing
+2023-12-15,Managed Services,Network Monitoring,12961.0,Chicago,IL,New
+2023-12-15,Managed Services,Help Desk,37841.0,Denver,CO,Existing
+2023-12-15,Managed Services,Help Desk,7278.0,Denver,CO,New
+2023-12-15,Managed Services,Help Desk,45134.0,Boston,MA,Existing
+2023-12-15,Managed Services,Help Desk,8711.0,Boston,MA,New
+2023-12-15,Managed Services,Help Desk,25480.0,Atlanta,GA,Existing
+2023-12-15,Managed Services,Help Desk,13471.0,Atlanta,GA,New
+2023-12-15,Managed Services,Help Desk,29508.0,Seattle,WA,Existing
+2023-12-15,Managed Services,Help Desk,7225.0,Seattle,WA,New
+2023-12-15,Managed Services,Help Desk,36389.0,New York,NY,Existing
+2023-12-15,Managed Services,Help Desk,6717.0,New York,NY,New
+2023-12-15,Managed Services,Help Desk,10417.0,Dallas,TX,Existing
+2023-12-15,Managed Services,Help Desk,4104.0,Dallas,TX,New
+2023-12-15,Managed Services,Help Desk,19373.0,Chicago,IL,Existing
+2023-12-15,Managed Services,Help Desk,11030.0,Chicago,IL,New
+2023-12-15,Managed Services,Network Monitoring,20600.0,Boston,MA,Existing
+2023-12-15,Managed Services,Network Monitoring,3366.0,Denver,CO,New
+2023-12-15,Cloud Services,Azure Services,51328.0,Denver,CO,Existing
+2023-12-15,Cloud Services,AWS Hosting,4002.0,Chicago,IL,New
+2023-12-15,Cloud Services,Azure Services,13451.0,Boston,MA,Existing
+2023-12-15,Cloud Services,Azure Services,10100.0,Boston,MA,New
+2023-12-15,Cloud Services,Azure Services,45845.0,Atlanta,GA,Existing
+2023-12-15,Cloud Services,Azure Services,2920.0,Atlanta,GA,New
+2023-12-15,Cloud Services,Azure Services,40924.0,Seattle,WA,Existing
+2023-12-15,Cloud Services,Azure Services,8582.0,Seattle,WA,New
+2023-12-15,Cloud Services,Azure Services,26203.0,New York,NY,Existing
+2023-12-15,Managed Services,Network Monitoring,15578.0,Denver,CO,Existing
+2023-12-15,Cloud Services,Azure Services,30560.0,Dallas,TX,Existing
+2023-12-15,Cloud Services,Azure Services,3912.0,Dallas,TX,New
+2023-12-15,Cloud Services,Azure Services,13764.0,Chicago,IL,Existing
+2023-12-15,Cloud Services,Azure Services,4600.0,Chicago,IL,New
+2023-12-15,Cloud Services,Azure Services,4957.0,New York,NY,New
+2023-12-15,Cloud Services,AWS Hosting,4501.0,Denver,CO,New
+2023-12-15,Cloud Services,AWS Hosting,22336.0,Denver,CO,Existing
+2023-12-15,Cloud Services,AWS Hosting,4134.0,Dallas,TX,New
+2023-12-15,Cloud Services,AWS Hosting,38689.0,Dallas,TX,Existing
+2023-12-15,Cloud Services,AWS Hosting,4659.0,New York,NY,New
+2023-12-15,Cloud Services,AWS Hosting,25363.0,New York,NY,Existing
+2023-12-15,Cloud Services,AWS Hosting,16617.0,Chicago,IL,Existing
+2023-12-15,Cloud Services,AWS Hosting,31155.0,Seattle,WA,Existing
+2023-12-15,Cloud Services,AWS Hosting,10584.0,Atlanta,GA,New
+2023-12-15,Cloud Services,AWS Hosting,17539.0,Atlanta,GA,Existing
+2023-12-15,Cloud Services,AWS Hosting,4786.0,Boston,MA,New
+2023-12-15,Cloud Services,AWS Hosting,11605.0,Boston,MA,Existing
+2023-12-15,Cloud Services,AWS Hosting,13381.0,Seattle,WA,New
+2024-01-15,Project Revenue,Migration,4322.0,Dallas,TX,New
+2024-01-15,Project Revenue,Migration,41284.0,Dallas,TX,Existing
+2024-01-15,Project Revenue,Migration,5839.0,New York,NY,New
+2024-01-15,Project Revenue,Migration,28111.0,New York,NY,Existing
+2024-01-15,Project Revenue,Migration,3169.0,Atlanta,GA,New
+2024-01-15,Project Revenue,Migration,31097.0,Seattle,WA,Existing
+2024-01-15,Project Revenue,Migration,42774.0,Atlanta,GA,Existing
+2024-01-15,Project Revenue,Migration,8277.0,Boston,MA,New
+2024-01-15,Project Revenue,Migration,20392.0,Boston,MA,Existing
+2024-01-15,Project Revenue,Migration,11065.0,Seattle,WA,New
+2024-01-15,Project Revenue,Migration,26601.0,Chicago,IL,Existing
+2024-01-15,Project Revenue,Implementation,3643.0,Dallas,TX,New
+2024-01-15,Project Revenue,Implementation,19151.0,Denver,CO,Existing
+2024-01-15,Project Revenue,Implementation,6627.0,Denver,CO,New
+2024-01-15,Project Revenue,Implementation,21947.0,Boston,MA,Existing
+2024-01-15,Project Revenue,Implementation,6391.0,Boston,MA,New
+2024-01-15,Project Revenue,Implementation,38214.0,Atlanta,GA,Existing
+2024-01-15,Project Revenue,Implementation,5924.0,Atlanta,GA,New
+2024-01-15,Project Revenue,Implementation,40456.0,Seattle,WA,Existing
+2024-01-15,Project Revenue,Implementation,5588.0,Seattle,WA,New
+2024-01-15,Project Revenue,Implementation,27353.0,New York,NY,Existing
+2024-01-15,Project Revenue,Implementation,8652.0,New York,NY,New
+2024-01-15,Project Revenue,Implementation,38139.0,Dallas,TX,Existing
+2024-01-15,Project Revenue,Migration,3393.0,Denver,CO,New
+2024-01-15,Project Revenue,Migration,9476.0,Chicago,IL,New
+2024-01-15,Project Revenue,Migration,37379.0,Denver,CO,Existing
+2024-01-15,Product Revenue,Hardware Sales,38387.0,Denver,CO,Existing
+2024-01-15,Product Revenue,Hardware Sales,27738.0,Chicago,IL,Existing
+2024-01-15,Project Revenue,Implementation,14055.0,Chicago,IL,Existing
+2024-01-15,Product Revenue,Software Licenses,4518.0,Denver,CO,New
+2024-01-15,Product Revenue,Software Licenses,28081.0,Boston,MA,Existing
+2024-01-15,Product Revenue,Software Licenses,8939.0,Boston,MA,New
+2024-01-15,Product Revenue,Software Licenses,31722.0,Atlanta,GA,Existing
+2024-01-15,Product Revenue,Software Licenses,9200.0,Atlanta,GA,New
+2024-01-15,Product Revenue,Software Licenses,34723.0,Seattle,WA,Existing
+2024-01-15,Product Revenue,Software Licenses,4293.0,Seattle,WA,New
+2024-01-15,Product Revenue,Software Licenses,13547.0,New York,NY,Existing
+2024-01-15,Product Revenue,Software Licenses,9973.0,New York,NY,New
+2024-01-15,Product Revenue,Software Licenses,22700.0,Dallas,TX,Existing
+2024-01-15,Product Revenue,Software Licenses,3275.0,Dallas,TX,New
+2024-01-15,Product Revenue,Software Licenses,39319.0,Chicago,IL,Existing
+2024-01-15,Product Revenue,Software Licenses,3106.0,Chicago,IL,New
+2024-01-15,Product Revenue,Hardware Sales,5421.0,Denver,CO,New
+2024-01-15,Product Revenue,Hardware Sales,40440.0,Boston,MA,Existing
+2024-01-15,Product Revenue,Hardware Sales,9625.0,Boston,MA,New
+2024-01-15,Product Revenue,Hardware Sales,29086.0,Atlanta,GA,Existing
+2024-01-15,Product Revenue,Hardware Sales,2335.0,Atlanta,GA,New
+2024-01-15,Product Revenue,Hardware Sales,35526.0,Seattle,WA,Existing
+2024-01-15,Product Revenue,Hardware Sales,4485.0,Seattle,WA,New
+2024-01-15,Product Revenue,Hardware Sales,19534.0,New York,NY,Existing
+2024-01-15,Product Revenue,Hardware Sales,3517.0,New York,NY,New
+2024-01-15,Product Revenue,Hardware Sales,37178.0,Dallas,TX,Existing
+2024-01-15,Product Revenue,Hardware Sales,10939.0,Dallas,TX,New
+2024-01-15,Product Revenue,Hardware Sales,8201.0,Chicago,IL,New
+2024-01-15,Project Revenue,Implementation,4016.0,Chicago,IL,New
+2024-01-15,Product Revenue,Software Licenses,20791.0,Denver,CO,Existing
+2024-01-15,Cloud Services,Azure Services,3398.0,Denver,CO,New
+2024-01-15,Managed Services,Network Monitoring,4886.0,Boston,MA,New
+2024-01-15,Managed Services,Network Monitoring,30593.0,Atlanta,GA,Existing
+2024-01-15,Managed Services,Network Monitoring,3148.0,Atlanta,GA,New
+2024-01-15,Managed Services,Network Monitoring,16969.0,Seattle,WA,Existing
+2024-01-15,Managed Services,Network Monitoring,7076.0,Seattle,WA,New
+2024-01-15,Managed Services,Network Monitoring,23741.0,New York,NY,Existing
+2024-01-15,Managed Services,Network Monitoring,5237.0,New York,NY,New
+2024-01-15,Managed Services,Network Monitoring,14921.0,Dallas,TX,Existing
+2024-01-15,Managed Services,Network Monitoring,9695.0,Dallas,TX,New
+2024-01-15,Managed Services,Network Monitoring,18359.0,Chicago,IL,Existing
+2024-01-15,Managed Services,Network Monitoring,7716.0,Chicago,IL,New
+2024-01-15,Managed Services,Help Desk,28600.0,Denver,CO,Existing
+2024-01-15,Managed Services,Help Desk,11294.0,Denver,CO,New
+2024-01-15,Managed Services,Help Desk,32740.0,Boston,MA,Existing
+2024-01-15,Managed Services,Help Desk,3709.0,Boston,MA,New
+2024-01-15,Managed Services,Help Desk,17542.0,Atlanta,GA,Existing
+2024-01-15,Managed Services,Help Desk,10171.0,Atlanta,GA,New
+2024-01-15,Managed Services,Help Desk,40024.0,Seattle,WA,Existing
+2024-01-15,Managed Services,Help Desk,11695.0,Seattle,WA,New
+2024-01-15,Managed Services,Help Desk,22721.0,New York,NY,Existing
+2024-01-15,Managed Services,Help Desk,3120.0,New York,NY,New
+2024-01-15,Managed Services,Help Desk,44348.0,Dallas,TX,Existing
+2024-01-15,Managed Services,Help Desk,6104.0,Dallas,TX,New
+2024-01-15,Managed Services,Help Desk,27407.0,Chicago,IL,Existing
+2024-01-15,Managed Services,Help Desk,2802.0,Chicago,IL,New
+2024-01-15,Managed Services,Network Monitoring,29506.0,Boston,MA,Existing
+2024-01-15,Managed Services,Network Monitoring,3544.0,Denver,CO,New
+2024-01-15,Cloud Services,Azure Services,37425.0,Denver,CO,Existing
+2024-01-15,Cloud Services,AWS Hosting,7326.0,Chicago,IL,New
+2024-01-15,Managed Services,Network Monitoring,25802.0,Denver,CO,Existing
+2024-01-15,Cloud Services,Azure Services,39148.0,Boston,MA,Existing
+2024-01-15,Cloud Services,Azure Services,7745.0,Boston,MA,New
+2024-01-15,Cloud Services,Azure Services,35421.0,Atlanta,GA,Existing
+2024-01-15,Cloud Services,Azure Services,2665.0,Atlanta,GA,New
+2024-01-15,Cloud Services,Azure Services,14706.0,Seattle,WA,Existing
+2024-01-15,Cloud Services,Azure Services,11383.0,Seattle,WA,New
+2024-01-15,Cloud Services,Azure Services,3243.0,New York,NY,New
+2024-01-15,Cloud Services,Azure Services,43706.0,Dallas,TX,Existing
+2024-01-15,Cloud Services,Azure Services,10306.0,Dallas,TX,New
+2024-01-15,Cloud Services,Azure Services,42393.0,Chicago,IL,Existing
+2024-01-15,Cloud Services,Azure Services,5489.0,Chicago,IL,New
+2024-01-15,Cloud Services,Azure Services,35042.0,New York,NY,Existing
+2024-01-15,Cloud Services,AWS Hosting,6716.0,Denver,CO,New
+2024-01-15,Cloud Services,AWS Hosting,23238.0,Denver,CO,Existing
+2024-01-15,Cloud Services,AWS Hosting,5366.0,Dallas,TX,New
+2024-01-15,Cloud Services,AWS Hosting,12973.0,Dallas,TX,Existing
+2024-01-15,Cloud Services,AWS Hosting,2634.0,New York,NY,New
+2024-01-15,Cloud Services,AWS Hosting,5224.0,Seattle,WA,New
+2024-01-15,Cloud Services,AWS Hosting,44629.0,New York,NY,Existing
+2024-01-15,Cloud Services,AWS Hosting,9917.0,Chicago,IL,Existing
+2024-01-15,Cloud Services,AWS Hosting,4546.0,Atlanta,GA,New
+2024-01-15,Cloud Services,AWS Hosting,33216.0,Atlanta,GA,Existing
+2024-01-15,Cloud Services,AWS Hosting,9602.0,Boston,MA,New
+2024-01-15,Cloud Services,AWS Hosting,30039.0,Boston,MA,Existing
+2024-01-15,Cloud Services,AWS Hosting,37965.0,Seattle,WA,Existing
+2024-02-15,Project Revenue,Migration,7801.0,New York,NY,New
+2024-02-15,Project Revenue,Migration,2413.0,Dallas,TX,New
+2024-02-15,Project Revenue,Migration,25976.0,Dallas,TX,Existing
+2024-02-15,Project Revenue,Migration,10640.0,New York,NY,Existing
+2024-02-15,Project Revenue,Migration,29281.0,Boston,MA,Existing
+2024-02-15,Project Revenue,Migration,25267.0,Seattle,WA,Existing
+2024-02-15,Project Revenue,Migration,7389.0,Atlanta,GA,New
+2024-02-15,Project Revenue,Migration,24794.0,Atlanta,GA,Existing
+2024-02-15,Project Revenue,Migration,6128.0,Boston,MA,New
+2024-02-15,Project Revenue,Migration,15357.0,Chicago,IL,Existing
+2024-02-15,Project Revenue,Migration,9950.0,Seattle,WA,New
+2024-02-15,Project Revenue,Migration,4132.0,Chicago,IL,New
+2024-02-15,Project Revenue,Implementation,33202.0,Chicago,IL,Existing
+2024-02-15,Project Revenue,Implementation,4181.0,Denver,CO,New
+2024-02-15,Project Revenue,Implementation,36464.0,Boston,MA,Existing
+2024-02-15,Project Revenue,Implementation,2724.0,Boston,MA,New
+2024-02-15,Project Revenue,Implementation,30630.0,Atlanta,GA,Existing
+2024-02-15,Project Revenue,Implementation,7162.0,Atlanta,GA,New
+2024-02-15,Project Revenue,Implementation,45782.0,Seattle,WA,Existing
+2024-02-15,Project Revenue,Implementation,2911.0,Seattle,WA,New
+2024-02-15,Project Revenue,Implementation,23808.0,New York,NY,Existing
+2024-02-15,Project Revenue,Implementation,3556.0,New York,NY,New
+2024-02-15,Project Revenue,Implementation,44431.0,Dallas,TX,Existing
+2024-02-15,Project Revenue,Implementation,3856.0,Dallas,TX,New
+2024-02-15,Project Revenue,Migration,3623.0,Denver,CO,New
+2024-02-15,Project Revenue,Implementation,42053.0,Denver,CO,Existing
+2024-02-15,Project Revenue,Migration,15026.0,Denver,CO,Existing
+2024-02-15,Product Revenue,Hardware Sales,4397.0,Denver,CO,New
+2024-02-15,Product Revenue,Hardware Sales,43866.0,Chicago,IL,Existing
+2024-02-15,Project Revenue,Implementation,2174.0,Chicago,IL,New
+2024-02-15,Product Revenue,Software Licenses,8854.0,Denver,CO,New
+2024-02-15,Product Revenue,Software Licenses,23150.0,Boston,MA,Existing
+2024-02-15,Product Revenue,Software Licenses,10508.0,Boston,MA,New
+2024-02-15,Product Revenue,Software Licenses,40454.0,Atlanta,GA,Existing
+2024-02-15,Product Revenue,Software Licenses,9407.0,Atlanta,GA,New
+2024-02-15,Product Revenue,Software Licenses,17337.0,Seattle,WA,Existing
+2024-02-15,Product Revenue,Software Licenses,3054.0,Seattle,WA,New
+2024-02-15,Product Revenue,Software Licenses,17149.0,New York,NY,Existing
+2024-02-15,Product Revenue,Software Licenses,8698.0,New York,NY,New
+2024-02-15,Product Revenue,Software Licenses,14898.0,Dallas,TX,Existing
+2024-02-15,Product Revenue,Software Licenses,10199.0,Dallas,TX,New
+2024-02-15,Product Revenue,Software Licenses,12089.0,Chicago,IL,Existing
+2024-02-15,Product Revenue,Software Licenses,2241.0,Chicago,IL,New
+2024-02-15,Product Revenue,Hardware Sales,33517.0,Denver,CO,Existing
+2024-02-15,Product Revenue,Hardware Sales,16537.0,Boston,MA,Existing
+2024-02-15,Product Revenue,Hardware Sales,2316.0,Boston,MA,New
+2024-02-15,Product Revenue,Hardware Sales,33028.0,Atlanta,GA,Existing
+2024-02-15,Product Revenue,Hardware Sales,9343.0,Atlanta,GA,New
+2024-02-15,Product Revenue,Hardware Sales,14053.0,Seattle,WA,Existing
+2024-02-15,Product Revenue,Hardware Sales,2299.0,Seattle,WA,New
+2024-02-15,Product Revenue,Hardware Sales,23586.0,New York,NY,Existing
+2024-02-15,Product Revenue,Hardware Sales,8609.0,New York,NY,New
+2024-02-15,Product Revenue,Hardware Sales,18378.0,Dallas,TX,Existing
+2024-02-15,Product Revenue,Hardware Sales,5848.0,Dallas,TX,New
+2024-02-15,Product Revenue,Hardware Sales,10830.0,Chicago,IL,New
+2024-02-15,Product Revenue,Software Licenses,15896.0,Denver,CO,Existing
+2024-02-15,Cloud Services,Azure Services,32022.0,Denver,CO,Existing
+2024-02-15,Cloud Services,Azure Services,21837.0,Boston,MA,Existing
+2024-02-15,Managed Services,Network Monitoring,43091.0,Atlanta,GA,Existing
+2024-02-15,Managed Services,Network Monitoring,11571.0,Atlanta,GA,New
+2024-02-15,Managed Services,Network Monitoring,35953.0,Seattle,WA,Existing
+2024-02-15,Managed Services,Network Monitoring,6366.0,Seattle,WA,New
+2024-02-15,Managed Services,Network Monitoring,31057.0,New York,NY,Existing
+2024-02-15,Managed Services,Network Monitoring,7918.0,New York,NY,New
+2024-02-15,Managed Services,Network Monitoring,13917.0,Dallas,TX,Existing
+2024-02-15,Managed Services,Network Monitoring,9254.0,Dallas,TX,New
+2024-02-15,Managed Services,Network Monitoring,42975.0,Chicago,IL,Existing
+2024-02-15,Managed Services,Network Monitoring,9146.0,Chicago,IL,New
+2024-02-15,Managed Services,Help Desk,11548.0,Denver,CO,New
+2024-02-15,Managed Services,Network Monitoring,6639.0,Boston,MA,New
+2024-02-15,Managed Services,Help Desk,41074.0,Boston,MA,Existing
+2024-02-15,Managed Services,Help Desk,31236.0,Atlanta,GA,Existing
+2024-02-15,Managed Services,Help Desk,7200.0,Atlanta,GA,New
+2024-02-15,Managed Services,Help Desk,30284.0,Seattle,WA,Existing
+2024-02-15,Managed Services,Help Desk,3604.0,Seattle,WA,New
+2024-02-15,Managed Services,Help Desk,43910.0,New York,NY,Existing
+2024-02-15,Managed Services,Help Desk,6752.0,New York,NY,New
+2024-02-15,Managed Services,Help Desk,23288.0,Dallas,TX,Existing
+2024-02-15,Managed Services,Help Desk,7991.0,Dallas,TX,New
+2024-02-15,Managed Services,Help Desk,42445.0,Chicago,IL,Existing
+2024-02-15,Managed Services,Help Desk,3892.0,Chicago,IL,New
+2024-02-15,Cloud Services,Azure Services,7962.0,Denver,CO,New
+2024-02-15,Managed Services,Help Desk,2225.0,Boston,MA,New
+2024-02-15,Managed Services,Network Monitoring,12434.0,Boston,MA,Existing
+2024-02-15,Managed Services,Help Desk,29488.0,Denver,CO,Existing
+2024-02-15,Managed Services,Network Monitoring,39820.0,Denver,CO,Existing
+2024-02-15,Managed Services,Network Monitoring,12085.0,Denver,CO,New
+2024-02-15,Cloud Services,Azure Services,23970.0,Atlanta,GA,Existing
+2024-02-15,Cloud Services,Azure Services,7123.0,Atlanta,GA,New
+2024-02-15,Cloud Services,Azure Services,14817.0,Seattle,WA,Existing
+2024-02-15,Cloud Services,Azure Services,3477.0,Seattle,WA,New
+2024-02-15,Cloud Services,Azure Services,25235.0,New York,NY,Existing
+2024-02-15,Cloud Services,Azure Services,4331.0,New York,NY,New
+2024-02-15,Cloud Services,Azure Services,25227.0,Dallas,TX,Existing
+2024-02-15,Cloud Services,Azure Services,9563.0,Dallas,TX,New
+2024-02-15,Cloud Services,Azure Services,21254.0,Chicago,IL,Existing
+2024-02-15,Cloud Services,Azure Services,5573.0,Chicago,IL,New
+2024-02-15,Cloud Services,AWS Hosting,42875.0,Denver,CO,Existing
+2024-02-15,Cloud Services,AWS Hosting,7521.0,Denver,CO,New
+2024-02-15,Cloud Services,Azure Services,11371.0,Boston,MA,New
+2024-02-15,Cloud Services,AWS Hosting,3312.0,Chicago,IL,New
+2024-02-15,Cloud Services,AWS Hosting,5442.0,Boston,MA,New
+2024-02-15,Cloud Services,AWS Hosting,8335.0,Atlanta,GA,Existing
+2024-02-15,Cloud Services,AWS Hosting,10229.0,Atlanta,GA,New
+2024-02-15,Cloud Services,AWS Hosting,20810.0,Seattle,WA,Existing
+2024-02-15,Cloud Services,AWS Hosting,2599.0,Seattle,WA,New
+2024-02-15,Cloud Services,AWS Hosting,23218.0,New York,NY,Existing
+2024-02-15,Cloud Services,AWS Hosting,8071.0,New York,NY,New
+2024-02-15,Cloud Services,AWS Hosting,27741.0,Dallas,TX,Existing
+2024-02-15,Cloud Services,AWS Hosting,10913.0,Dallas,TX,New
+2024-02-15,Cloud Services,AWS Hosting,42913.0,Chicago,IL,Existing
+2024-02-15,Cloud Services,AWS Hosting,23187.0,Boston,MA,Existing
+2024-03-15,Project Revenue,Migration,26638.0,Dallas,TX,Existing
+2024-03-15,Project Revenue,Migration,8982.0,New York,NY,New
+2024-03-15,Project Revenue,Migration,44369.0,New York,NY,Existing
+2024-03-15,Project Revenue,Migration,9699.0,Seattle,WA,New
+2024-03-15,Project Revenue,Migration,7242.0,Denver,CO,New
+2024-03-15,Project Revenue,Migration,2404.0,Atlanta,GA,New
+2024-03-15,Project Revenue,Migration,18412.0,Atlanta,GA,Existing
+2024-03-15,Project Revenue,Migration,8269.0,Boston,MA,New
+2024-03-15,Project Revenue,Migration,10299.0,Boston,MA,Existing
+2024-03-15,Project Revenue,Migration,7971.0,Dallas,TX,New
+2024-03-15,Project Revenue,Migration,16591.0,Seattle,WA,Existing
+2024-03-15,Project Revenue,Migration,19753.0,Chicago,IL,Existing
+2024-03-15,Project Revenue,Implementation,2941.0,Atlanta,GA,New
+2024-03-15,Project Revenue,Implementation,22006.0,Denver,CO,Existing
+2024-03-15,Project Revenue,Implementation,5082.0,Denver,CO,New
+2024-03-15,Project Revenue,Implementation,23300.0,Boston,MA,Existing
+2024-03-15,Project Revenue,Implementation,4632.0,Boston,MA,New
+2024-03-15,Project Revenue,Implementation,31529.0,Atlanta,GA,Existing
+2024-03-15,Project Revenue,Implementation,36720.0,Seattle,WA,Existing
+2024-03-15,Project Revenue,Implementation,3809.0,Seattle,WA,New
+2024-03-15,Project Revenue,Implementation,10127.0,New York,NY,Existing
+2024-03-15,Project Revenue,Implementation,7477.0,New York,NY,New
+2024-03-15,Project Revenue,Implementation,23063.0,Dallas,TX,Existing
+2024-03-15,Project Revenue,Implementation,6435.0,Dallas,TX,New
+2024-03-15,Project Revenue,Migration,9558.0,Chicago,IL,New
+2024-03-15,Product Revenue,Software Licenses,40997.0,Denver,CO,Existing
+2024-03-15,Project Revenue,Implementation,43507.0,Chicago,IL,Existing
+2024-03-15,Product Revenue,Hardware Sales,37985.0,Chicago,IL,Existing
+2024-03-15,Product Revenue,Software Licenses,9280.0,Denver,CO,New
+2024-03-15,Product Revenue,Software Licenses,33670.0,Boston,MA,Existing
+2024-03-15,Product Revenue,Software Licenses,10468.0,Boston,MA,New
+2024-03-15,Product Revenue,Software Licenses,36496.0,Atlanta,GA,Existing
+2024-03-15,Product Revenue,Software Licenses,11159.0,Atlanta,GA,New
+2024-03-15,Product Revenue,Software Licenses,29172.0,Seattle,WA,Existing
+2024-03-15,Product Revenue,Software Licenses,4005.0,Seattle,WA,New
+2024-03-15,Product Revenue,Software Licenses,25482.0,New York,NY,Existing
+2024-03-15,Product Revenue,Software Licenses,11962.0,New York,NY,New
+2024-03-15,Product Revenue,Software Licenses,13585.0,Dallas,TX,Existing
+2024-03-15,Product Revenue,Software Licenses,11620.0,Dallas,TX,New
+2024-03-15,Product Revenue,Software Licenses,11844.0,Chicago,IL,Existing
+2024-03-15,Product Revenue,Software Licenses,5834.0,Chicago,IL,New
+2024-03-15,Product Revenue,Hardware Sales,31032.0,Denver,CO,Existing
+2024-03-15,Product Revenue,Hardware Sales,4910.0,Denver,CO,New
+2024-03-15,Product Revenue,Hardware Sales,35052.0,Boston,MA,Existing
+2024-03-15,Product Revenue,Hardware Sales,10394.0,Boston,MA,New
+2024-03-15,Product Revenue,Hardware Sales,39839.0,Atlanta,GA,Existing
+2024-03-15,Product Revenue,Hardware Sales,4643.0,Atlanta,GA,New
+2024-03-15,Product Revenue,Hardware Sales,25052.0,Seattle,WA,Existing
+2024-03-15,Product Revenue,Hardware Sales,9239.0,Seattle,WA,New
+2024-03-15,Product Revenue,Hardware Sales,27387.0,New York,NY,Existing
+2024-03-15,Product Revenue,Hardware Sales,9653.0,New York,NY,New
+2024-03-15,Product Revenue,Hardware Sales,11211.0,Dallas,TX,Existing
+2024-03-15,Product Revenue,Hardware Sales,3189.0,Dallas,TX,New
+2024-03-15,Product Revenue,Hardware Sales,5556.0,Chicago,IL,New
+2024-03-15,Project Revenue,Implementation,3904.0,Chicago,IL,New
+2024-03-15,Project Revenue,Migration,31287.0,Denver,CO,Existing
+2024-03-15,Cloud Services,Azure Services,8325.0,Denver,CO,New
+2024-03-15,Managed Services,Network Monitoring,11112.0,Boston,MA,New
+2024-03-15,Managed Services,Network Monitoring,13712.0,Atlanta,GA,Existing
+2024-03-15,Managed Services,Network Monitoring,10022.0,Atlanta,GA,New
+2024-03-15,Managed Services,Network Monitoring,44816.0,Seattle,WA,Existing
+2024-03-15,Managed Services,Network Monitoring,5142.0,Seattle,WA,New
+2024-03-15,Managed Services,Network Monitoring,25102.0,New York,NY,Existing
+2024-03-15,Managed Services,Network Monitoring,7821.0,New York,NY,New
+2024-03-15,Managed Services,Network Monitoring,24074.0,Dallas,TX,Existing
+2024-03-15,Managed Services,Network Monitoring,8571.0,Dallas,TX,New
+2024-03-15,Managed Services,Network Monitoring,18635.0,Chicago,IL,Existing
+2024-03-15,Managed Services,Network Monitoring,8219.0,Chicago,IL,New
+2024-03-15,Managed Services,Help Desk,22931.0,Denver,CO,Existing
+2024-03-15,Managed Services,Help Desk,4778.0,Denver,CO,New
+2024-03-15,Managed Services,Help Desk,21473.0,Boston,MA,Existing
+2024-03-15,Managed Services,Help Desk,10581.0,Boston,MA,New
+2024-03-15,Managed Services,Help Desk,42670.0,Atlanta,GA,Existing
+2024-03-15,Managed Services,Help Desk,6463.0,Atlanta,GA,New
+2024-03-15,Managed Services,Help Desk,30755.0,Seattle,WA,Existing
+2024-03-15,Managed Services,Help Desk,3967.0,Seattle,WA,New
+2024-03-15,Managed Services,Help Desk,9341.0,New York,NY,Existing
+2024-03-15,Managed Services,Help Desk,4242.0,New York,NY,New
+2024-03-15,Managed Services,Help Desk,11610.0,Dallas,TX,Existing
+2024-03-15,Managed Services,Help Desk,2215.0,Dallas,TX,New
+2024-03-15,Managed Services,Help Desk,42811.0,Chicago,IL,Existing
+2024-03-15,Managed Services,Help Desk,5129.0,Chicago,IL,New
+2024-03-15,Managed Services,Network Monitoring,27076.0,Boston,MA,Existing
+2024-03-15,Managed Services,Network Monitoring,11383.0,Denver,CO,New
+2024-03-15,Cloud Services,Azure Services,33911.0,Denver,CO,Existing
+2024-03-15,Cloud Services,AWS Hosting,6502.0,Chicago,IL,New
+2024-03-15,Managed Services,Network Monitoring,39098.0,Denver,CO,Existing
+2024-03-15,Cloud Services,Azure Services,31308.0,Boston,MA,Existing
+2024-03-15,Cloud Services,Azure Services,11168.0,Boston,MA,New
+2024-03-15,Cloud Services,Azure Services,42953.0,Atlanta,GA,Existing
+2024-03-15,Cloud Services,Azure Services,3504.0,Atlanta,GA,New
+2024-03-15,Cloud Services,Azure Services,8743.0,Seattle,WA,Existing
+2024-03-15,Cloud Services,Azure Services,4227.0,Seattle,WA,New
+2024-03-15,Cloud Services,Azure Services,8855.0,New York,NY,New
+2024-03-15,Cloud Services,Azure Services,29645.0,Dallas,TX,Existing
+2024-03-15,Cloud Services,Azure Services,4930.0,Dallas,TX,New
+2024-03-15,Cloud Services,Azure Services,30504.0,Chicago,IL,Existing
+2024-03-15,Cloud Services,Azure Services,3305.0,Chicago,IL,New
+2024-03-15,Cloud Services,Azure Services,40248.0,New York,NY,Existing
+2024-03-15,Cloud Services,AWS Hosting,2271.0,Denver,CO,New
+2024-03-15,Cloud Services,AWS Hosting,43502.0,Denver,CO,Existing
+2024-03-15,Cloud Services,AWS Hosting,4874.0,Dallas,TX,New
+2024-03-15,Cloud Services,AWS Hosting,29162.0,Dallas,TX,Existing
+2024-03-15,Cloud Services,AWS Hosting,8668.0,New York,NY,New
+2024-03-15,Cloud Services,AWS Hosting,3529.0,Seattle,WA,New
+2024-03-15,Cloud Services,AWS Hosting,18244.0,New York,NY,Existing
+2024-03-15,Cloud Services,AWS Hosting,9185.0,Chicago,IL,Existing
+2024-03-15,Cloud Services,AWS Hosting,12318.0,Atlanta,GA,New
+2024-03-15,Cloud Services,AWS Hosting,28549.0,Atlanta,GA,Existing
+2024-03-15,Cloud Services,AWS Hosting,3865.0,Boston,MA,New
+2024-03-15,Cloud Services,AWS Hosting,18798.0,Boston,MA,Existing
+2024-03-15,Cloud Services,AWS Hosting,40448.0,Seattle,WA,Existing
+2024-04-15,Project Revenue,Migration,42959.0,New York,NY,Existing
+2024-04-15,Project Revenue,Migration,11987.0,Dallas,TX,Existing
+2024-04-15,Project Revenue,Migration,6546.0,New York,NY,New
+2024-04-15,Project Revenue,Migration,12134.0,Seattle,WA,New
+2024-04-15,Project Revenue,Migration,12113.0,Denver,CO,New
+2024-04-15,Project Revenue,Migration,8622.0,Atlanta,GA,New
+2024-04-15,Project Revenue,Migration,15031.0,Atlanta,GA,Existing
+2024-04-15,Project Revenue,Migration,12626.0,Boston,MA,New
+2024-04-15,Project Revenue,Migration,17566.0,Boston,MA,Existing
+2024-04-15,Project Revenue,Migration,10455.0,Dallas,TX,New
+2024-04-15,Project Revenue,Migration,26811.0,Seattle,WA,Existing
+2024-04-15,Project Revenue,Migration,45737.0,Chicago,IL,Existing
+2024-04-15,Project Revenue,Implementation,4651.0,Dallas,TX,New
+2024-04-15,Project Revenue,Implementation,35136.0,Denver,CO,Existing
+2024-04-15,Project Revenue,Implementation,6194.0,Denver,CO,New
+2024-04-15,Project Revenue,Implementation,25257.0,Boston,MA,Existing
+2024-04-15,Project Revenue,Implementation,12590.0,Boston,MA,New
+2024-04-15,Project Revenue,Implementation,9181.0,Atlanta,GA,Existing
+2024-04-15,Project Revenue,Implementation,2566.0,Atlanta,GA,New
+2024-04-15,Project Revenue,Implementation,17642.0,Seattle,WA,Existing
+2024-04-15,Project Revenue,Implementation,5261.0,Seattle,WA,New
+2024-04-15,Project Revenue,Implementation,19746.0,New York,NY,Existing
+2024-04-15,Project Revenue,Implementation,5879.0,New York,NY,New
+2024-04-15,Project Revenue,Implementation,12813.0,Dallas,TX,Existing
+2024-04-15,Project Revenue,Migration,33959.0,Denver,CO,Existing
+2024-04-15,Project Revenue,Migration,4433.0,Chicago,IL,New
+2024-04-15,Product Revenue,Hardware Sales,8562.0,Chicago,IL,New
+2024-04-15,Product Revenue,Hardware Sales,15300.0,Denver,CO,Existing
+2024-04-15,Product Revenue,Hardware Sales,4565.0,Dallas,TX,New
+2024-04-15,Project Revenue,Implementation,37408.0,Chicago,IL,Existing
+2024-04-15,Product Revenue,Software Licenses,13560.0,Denver,CO,Existing
+2024-04-15,Product Revenue,Software Licenses,4935.0,Denver,CO,New
+2024-04-15,Product Revenue,Software Licenses,42894.0,Boston,MA,Existing
+2024-04-15,Product Revenue,Software Licenses,3090.0,Boston,MA,New
+2024-04-15,Product Revenue,Software Licenses,31231.0,Atlanta,GA,Existing
+2024-04-15,Product Revenue,Software Licenses,8405.0,Atlanta,GA,New
+2024-04-15,Product Revenue,Software Licenses,29540.0,Seattle,WA,Existing
+2024-04-15,Product Revenue,Software Licenses,4492.0,Seattle,WA,New
+2024-04-15,Product Revenue,Software Licenses,17283.0,New York,NY,Existing
+2024-04-15,Product Revenue,Software Licenses,10768.0,New York,NY,New
+2024-04-15,Product Revenue,Software Licenses,14516.0,Dallas,TX,Existing
+2024-04-15,Product Revenue,Software Licenses,9498.0,Dallas,TX,New
+2024-04-15,Product Revenue,Software Licenses,38218.0,Chicago,IL,Existing
+2024-04-15,Product Revenue,Software Licenses,6320.0,Chicago,IL,New
+2024-04-15,Product Revenue,Hardware Sales,12666.0,Denver,CO,New
+2024-04-15,Product Revenue,Hardware Sales,44866.0,Boston,MA,Existing
+2024-04-15,Product Revenue,Hardware Sales,11488.0,Boston,MA,New
+2024-04-15,Product Revenue,Hardware Sales,46488.0,Atlanta,GA,Existing
+2024-04-15,Product Revenue,Hardware Sales,2733.0,Atlanta,GA,New
+2024-04-15,Product Revenue,Hardware Sales,22212.0,Seattle,WA,Existing
+2024-04-15,Product Revenue,Hardware Sales,10384.0,Seattle,WA,New
+2024-04-15,Product Revenue,Hardware Sales,15792.0,New York,NY,Existing
+2024-04-15,Product Revenue,Hardware Sales,4457.0,New York,NY,New
+2024-04-15,Product Revenue,Hardware Sales,15403.0,Dallas,TX,Existing
+2024-04-15,Product Revenue,Hardware Sales,28588.0,Chicago,IL,Existing
+2024-04-15,Project Revenue,Implementation,6586.0,Chicago,IL,New
+2024-04-15,Cloud Services,Azure Services,24865.0,Denver,CO,Existing
+2024-04-15,Cloud Services,Azure Services,10264.0,Denver,CO,New
+2024-04-15,Managed Services,Network Monitoring,4558.0,Boston,MA,New
+2024-04-15,Managed Services,Network Monitoring,31866.0,Atlanta,GA,Existing
+2024-04-15,Managed Services,Network Monitoring,2512.0,Atlanta,GA,New
+2024-04-15,Managed Services,Network Monitoring,40990.0,Seattle,WA,Existing
+2024-04-15,Managed Services,Network Monitoring,5502.0,Seattle,WA,New
+2024-04-15,Managed Services,Network Monitoring,41603.0,New York,NY,Existing
+2024-04-15,Managed Services,Network Monitoring,11258.0,New York,NY,New
+2024-04-15,Managed Services,Network Monitoring,27079.0,Dallas,TX,Existing
+2024-04-15,Managed Services,Network Monitoring,12129.0,Dallas,TX,New
+2024-04-15,Managed Services,Network Monitoring,46565.0,Chicago,IL,Existing
+2024-04-15,Managed Services,Help Desk,20142.0,Denver,CO,Existing
+2024-04-15,Managed Services,Network Monitoring,13209.0,Boston,MA,Existing
+2024-04-15,Managed Services,Help Desk,9513.0,Denver,CO,New
+2024-04-15,Managed Services,Help Desk,11824.0,Boston,MA,New
+2024-04-15,Managed Services,Help Desk,30755.0,Atlanta,GA,Existing
+2024-04-15,Managed Services,Help Desk,4034.0,Atlanta,GA,New
+2024-04-15,Managed Services,Help Desk,44768.0,Seattle,WA,Existing
+2024-04-15,Managed Services,Help Desk,9599.0,Seattle,WA,New
+2024-04-15,Managed Services,Help Desk,10026.0,New York,NY,Existing
+2024-04-15,Managed Services,Help Desk,12127.0,New York,NY,New
+2024-04-15,Managed Services,Help Desk,47216.0,Dallas,TX,Existing
+2024-04-15,Managed Services,Help Desk,4465.0,Dallas,TX,New
+2024-04-15,Managed Services,Help Desk,27675.0,Chicago,IL,Existing
+2024-04-15,Managed Services,Help Desk,4766.0,Chicago,IL,New
+2024-04-15,Managed Services,Help Desk,9811.0,Boston,MA,Existing
+2024-04-15,Managed Services,Network Monitoring,2936.0,Denver,CO,New
+2024-04-15,Managed Services,Network Monitoring,11919.0,Chicago,IL,New
+2024-04-15,Cloud Services,AWS Hosting,5723.0,Chicago,IL,New
+2024-04-15,Managed Services,Network Monitoring,35788.0,Denver,CO,Existing
+2024-04-15,Cloud Services,Azure Services,11381.0,Boston,MA,New
+2024-04-15,Cloud Services,Azure Services,33091.0,Atlanta,GA,Existing
+2024-04-15,Cloud Services,Azure Services,7207.0,Atlanta,GA,New
+2024-04-15,Cloud Services,Azure Services,24244.0,Seattle,WA,Existing
+2024-04-15,Cloud Services,Azure Services,10252.0,Seattle,WA,New
+2024-04-15,Cloud Services,Azure Services,22235.0,New York,NY,Existing
+2024-04-15,Cloud Services,Azure Services,12698.0,New York,NY,New
+2024-04-15,Cloud Services,Azure Services,39808.0,Dallas,TX,Existing
+2024-04-15,Cloud Services,Azure Services,12074.0,Dallas,TX,New
+2024-04-15,Cloud Services,Azure Services,29225.0,Chicago,IL,Existing
+2024-04-15,Cloud Services,Azure Services,11392.0,Chicago,IL,New
+2024-04-15,Cloud Services,AWS Hosting,9314.0,Denver,CO,Existing
+2024-04-15,Cloud Services,Azure Services,47076.0,Boston,MA,Existing
+2024-04-15,Cloud Services,AWS Hosting,7839.0,New York,NY,New
+2024-04-15,Cloud Services,AWS Hosting,9437.0,Boston,MA,Existing
+2024-04-15,Cloud Services,AWS Hosting,4589.0,Boston,MA,New
+2024-04-15,Cloud Services,AWS Hosting,32634.0,Atlanta,GA,Existing
+2024-04-15,Cloud Services,AWS Hosting,11511.0,Atlanta,GA,New
+2024-04-15,Cloud Services,AWS Hosting,33027.0,Seattle,WA,Existing
+2024-04-15,Cloud Services,AWS Hosting,5499.0,Seattle,WA,New
+2024-04-15,Cloud Services,AWS Hosting,39492.0,New York,NY,Existing
+2024-04-15,Cloud Services,AWS Hosting,11343.0,Denver,CO,New
+2024-04-15,Cloud Services,AWS Hosting,20846.0,Dallas,TX,Existing
+2024-04-15,Cloud Services,AWS Hosting,2813.0,Dallas,TX,New
+2024-04-15,Cloud Services,AWS Hosting,36905.0,Chicago,IL,Existing
+2024-05-15,Project Revenue,Migration,43467.0,New York,NY,Existing
+2024-05-15,Project Revenue,Migration,21571.0,Denver,CO,Existing
+2024-05-15,Project Revenue,Migration,33452.0,Dallas,TX,Existing
+2024-05-15,Project Revenue,Migration,2654.0,New York,NY,New
+2024-05-15,Project Revenue,Migration,12674.0,Seattle,WA,New
+2024-05-15,Project Revenue,Migration,2399.0,Denver,CO,New
+2024-05-15,Project Revenue,Migration,10256.0,Atlanta,GA,New
+2024-05-15,Project Revenue,Migration,13838.0,Atlanta,GA,Existing
+2024-05-15,Project Revenue,Migration,10349.0,Boston,MA,New
+2024-05-15,Project Revenue,Migration,9622.0,Boston,MA,Existing
+2024-05-15,Project Revenue,Migration,5896.0,Dallas,TX,New
+2024-05-15,Project Revenue,Migration,47356.0,Seattle,WA,Existing
+2024-05-15,Project Revenue,Migration,31904.0,Chicago,IL,Existing
+2024-05-15,Project Revenue,Implementation,46092.0,Atlanta,GA,Existing
+2024-05-15,Project Revenue,Implementation,36939.0,Denver,CO,Existing
+2024-05-15,Project Revenue,Implementation,5410.0,Denver,CO,New
+2024-05-15,Project Revenue,Implementation,11351.0,Boston,MA,Existing
+2024-05-15,Project Revenue,Implementation,9589.0,Boston,MA,New
+2024-05-15,Project Revenue,Implementation,3267.0,Atlanta,GA,New
+2024-05-15,Project Revenue,Implementation,45884.0,Seattle,WA,Existing
+2024-05-15,Project Revenue,Implementation,8992.0,Seattle,WA,New
+2024-05-15,Project Revenue,Implementation,22301.0,New York,NY,Existing
+2024-05-15,Project Revenue,Implementation,12560.0,New York,NY,New
+2024-05-15,Project Revenue,Implementation,30269.0,Dallas,TX,Existing
+2024-05-15,Project Revenue,Implementation,10379.0,Dallas,TX,New
+2024-05-15,Project Revenue,Migration,2887.0,Chicago,IL,New
+2024-05-15,Product Revenue,Software Licenses,17829.0,Denver,CO,Existing
+2024-05-15,Product Revenue,Software Licenses,11816.0,Denver,CO,New
+2024-05-15,Product Revenue,Hardware Sales,39425.0,Chicago,IL,Existing
+2024-05-15,Project Revenue,Implementation,12915.0,Chicago,IL,Existing
+2024-05-15,Product Revenue,Software Licenses,24997.0,Boston,MA,Existing
+2024-05-15,Product Revenue,Software Licenses,12787.0,Boston,MA,New
+2024-05-15,Product Revenue,Software Licenses,19598.0,Atlanta,GA,Existing
+2024-05-15,Product Revenue,Software Licenses,6454.0,Atlanta,GA,New
+2024-05-15,Product Revenue,Software Licenses,34155.0,Seattle,WA,Existing
+2024-05-15,Product Revenue,Software Licenses,6693.0,Seattle,WA,New
+2024-05-15,Product Revenue,Software Licenses,46347.0,New York,NY,Existing
+2024-05-15,Product Revenue,Software Licenses,6829.0,New York,NY,New
+2024-05-15,Product Revenue,Software Licenses,14676.0,Dallas,TX,Existing
+2024-05-15,Product Revenue,Software Licenses,12429.0,Dallas,TX,New
+2024-05-15,Product Revenue,Software Licenses,19559.0,Chicago,IL,Existing
+2024-05-15,Product Revenue,Software Licenses,9229.0,Chicago,IL,New
+2024-05-15,Product Revenue,Hardware Sales,35833.0,Denver,CO,Existing
+2024-05-15,Product Revenue,Hardware Sales,3050.0,Denver,CO,New
+2024-05-15,Product Revenue,Hardware Sales,17462.0,Boston,MA,Existing
+2024-05-15,Product Revenue,Hardware Sales,9652.0,Boston,MA,New
+2024-05-15,Product Revenue,Hardware Sales,40401.0,Atlanta,GA,Existing
+2024-05-15,Product Revenue,Hardware Sales,3927.0,Atlanta,GA,New
+2024-05-15,Product Revenue,Hardware Sales,26677.0,Seattle,WA,Existing
+2024-05-15,Product Revenue,Hardware Sales,6763.0,Seattle,WA,New
+2024-05-15,Product Revenue,Hardware Sales,48485.0,New York,NY,Existing
+2024-05-15,Product Revenue,Hardware Sales,5115.0,New York,NY,New
+2024-05-15,Product Revenue,Hardware Sales,26458.0,Dallas,TX,Existing
+2024-05-15,Product Revenue,Hardware Sales,9540.0,Dallas,TX,New
+2024-05-15,Product Revenue,Hardware Sales,7437.0,Chicago,IL,New
+2024-05-15,Project Revenue,Implementation,10582.0,Chicago,IL,New
+2024-05-15,Managed Services,Network Monitoring,34952.0,Denver,CO,Existing
+2024-05-15,Cloud Services,Azure Services,9007.0,Denver,CO,New
+2024-05-15,Managed Services,Network Monitoring,31247.0,Atlanta,GA,Existing
+2024-05-15,Managed Services,Network Monitoring,9483.0,Atlanta,GA,New
+2024-05-15,Managed Services,Network Monitoring,22538.0,Seattle,WA,Existing
+2024-05-15,Managed Services,Network Monitoring,11067.0,Seattle,WA,New
+2024-05-15,Managed Services,Network Monitoring,32313.0,New York,NY,Existing
+2024-05-15,Managed Services,Network Monitoring,7350.0,New York,NY,New
+2024-05-15,Managed Services,Network Monitoring,28426.0,Dallas,TX,Existing
+2024-05-15,Managed Services,Network Monitoring,11353.0,Dallas,TX,New
+2024-05-15,Managed Services,Network Monitoring,11682.0,Chicago,IL,Existing
+2024-05-15,Managed Services,Network Monitoring,9539.0,Chicago,IL,New
+2024-05-15,Managed Services,Help Desk,3035.0,Denver,CO,New
+2024-05-15,Managed Services,Network Monitoring,5044.0,Boston,MA,New
+2024-05-15,Managed Services,Help Desk,28455.0,Boston,MA,Existing
+2024-05-15,Managed Services,Help Desk,19020.0,Atlanta,GA,Existing
+2024-05-15,Managed Services,Help Desk,6185.0,Atlanta,GA,New
+2024-05-15,Managed Services,Help Desk,24962.0,Seattle,WA,Existing
+2024-05-15,Managed Services,Help Desk,3099.0,Seattle,WA,New
+2024-05-15,Managed Services,Help Desk,30652.0,New York,NY,Existing
+2024-05-15,Managed Services,Help Desk,9237.0,New York,NY,New
+2024-05-15,Managed Services,Help Desk,40988.0,Dallas,TX,Existing
+2024-05-15,Managed Services,Help Desk,11471.0,Dallas,TX,New
+2024-05-15,Managed Services,Help Desk,46828.0,Chicago,IL,Existing
+2024-05-15,Managed Services,Help Desk,11758.0,Chicago,IL,New
+2024-05-15,Cloud Services,Azure Services,30218.0,Denver,CO,Existing
+2024-05-15,Managed Services,Help Desk,9973.0,Boston,MA,New
+2024-05-15,Managed Services,Network Monitoring,43750.0,Boston,MA,Existing
+2024-05-15,Managed Services,Help Desk,17439.0,Denver,CO,Existing
+2024-05-15,Cloud Services,AWS Hosting,11346.0,Chicago,IL,New
+2024-05-15,Managed Services,Network Monitoring,10772.0,Denver,CO,New
+2024-05-15,Cloud Services,Azure Services,8984.0,Boston,MA,New
+2024-05-15,Cloud Services,Azure Services,47848.0,Atlanta,GA,Existing
+2024-05-15,Cloud Services,Azure Services,8823.0,Atlanta,GA,New
+2024-05-15,Cloud Services,Azure Services,20110.0,Seattle,WA,Existing
+2024-05-15,Cloud Services,Azure Services,2229.0,Seattle,WA,New
+2024-05-15,Cloud Services,Azure Services,28918.0,New York,NY,Existing
+2024-05-15,Cloud Services,Azure Services,11147.0,New York,NY,New
+2024-05-15,Cloud Services,Azure Services,3896.0,Dallas,TX,New
+2024-05-15,Cloud Services,Azure Services,38351.0,Chicago,IL,Existing
+2024-05-15,Cloud Services,Azure Services,5779.0,Chicago,IL,New
+2024-05-15,Cloud Services,AWS Hosting,13790.0,Denver,CO,Existing
+2024-05-15,Cloud Services,Azure Services,41326.0,Dallas,TX,Existing
+2024-05-15,Cloud Services,Azure Services,19022.0,Boston,MA,Existing
+2024-05-15,Cloud Services,AWS Hosting,43297.0,Chicago,IL,Existing
+2024-05-15,Cloud Services,AWS Hosting,11079.0,Denver,CO,New
+2024-05-15,Cloud Services,AWS Hosting,42087.0,Dallas,TX,Existing
+2024-05-15,Cloud Services,AWS Hosting,9693.0,New York,NY,New
+2024-05-15,Cloud Services,AWS Hosting,35818.0,New York,NY,Existing
+2024-05-15,Cloud Services,AWS Hosting,8841.0,Seattle,WA,New
+2024-05-15,Cloud Services,AWS Hosting,9810.0,Dallas,TX,New
+2024-05-15,Cloud Services,AWS Hosting,3873.0,Atlanta,GA,New
+2024-05-15,Cloud Services,AWS Hosting,43840.0,Atlanta,GA,Existing
+2024-05-15,Cloud Services,AWS Hosting,11576.0,Boston,MA,New
+2024-05-15,Cloud Services,AWS Hosting,9809.0,Boston,MA,Existing
+2024-05-15,Cloud Services,AWS Hosting,38719.0,Seattle,WA,Existing
+2024-06-15,Project Revenue,Migration,30831.0,Chicago,IL,Existing
+2024-06-15,Project Revenue,Migration,8224.0,Boston,MA,New
+2024-06-15,Project Revenue,Migration,45219.0,Atlanta,GA,Existing
+2024-06-15,Project Revenue,Migration,3081.0,Atlanta,GA,New
+2024-06-15,Project Revenue,Migration,41963.0,Seattle,WA,Existing
+2024-06-15,Project Revenue,Migration,5934.0,Seattle,WA,New
+2024-06-15,Project Revenue,Migration,41430.0,New York,NY,Existing
+2024-06-15,Project Revenue,Migration,10055.0,New York,NY,New
+2024-06-15,Project Revenue,Migration,44248.0,Dallas,TX,Existing
+2024-06-15,Project Revenue,Migration,10000.0,Dallas,TX,New
+2024-06-15,Project Revenue,Migration,2772.0,Chicago,IL,New
+2024-06-15,Project Revenue,Implementation,11998.0,Chicago,IL,Existing
+2024-06-15,Project Revenue,Implementation,2547.0,Denver,CO,New
+2024-06-15,Project Revenue,Implementation,37554.0,Boston,MA,Existing
+2024-06-15,Project Revenue,Implementation,9201.0,Boston,MA,New
+2024-06-15,Project Revenue,Implementation,13056.0,Atlanta,GA,Existing
+2024-06-15,Project Revenue,Implementation,4042.0,Atlanta,GA,New
+2024-06-15,Project Revenue,Implementation,16946.0,Seattle,WA,Existing
+2024-06-15,Project Revenue,Implementation,11006.0,Seattle,WA,New
+2024-06-15,Project Revenue,Implementation,36861.0,New York,NY,Existing
+2024-06-15,Project Revenue,Implementation,8443.0,New York,NY,New
+2024-06-15,Project Revenue,Implementation,14202.0,Dallas,TX,Existing
+2024-06-15,Project Revenue,Implementation,6566.0,Dallas,TX,New
+2024-06-15,Project Revenue,Migration,42064.0,Boston,MA,Existing
+2024-06-15,Project Revenue,Implementation,46904.0,Denver,CO,Existing
+2024-06-15,Project Revenue,Migration,7176.0,Denver,CO,New
+2024-06-15,Product Revenue,Software Licenses,27629.0,Boston,MA,Existing
+2024-06-15,Product Revenue,Hardware Sales,7990.0,Chicago,IL,New
+2024-06-15,Project Revenue,Implementation,2565.0,Chicago,IL,New
+2024-06-15,Product Revenue,Software Licenses,5035.0,Boston,MA,New
+2024-06-15,Product Revenue,Software Licenses,10048.0,Atlanta,GA,Existing
+2024-06-15,Product Revenue,Software Licenses,2994.0,Atlanta,GA,New
+2024-06-15,Product Revenue,Software Licenses,36485.0,Seattle,WA,Existing
+2024-06-15,Product Revenue,Software Licenses,4395.0,Seattle,WA,New
+2024-06-15,Product Revenue,Software Licenses,35268.0,New York,NY,Existing
+2024-06-15,Product Revenue,Software Licenses,12923.0,New York,NY,New
+2024-06-15,Product Revenue,Software Licenses,49351.0,Dallas,TX,Existing
+2024-06-15,Product Revenue,Software Licenses,4713.0,Dallas,TX,New
+2024-06-15,Product Revenue,Software Licenses,38072.0,Chicago,IL,Existing
+2024-06-15,Product Revenue,Software Licenses,8309.0,Chicago,IL,New
+2024-06-15,Product Revenue,Hardware Sales,29077.0,Denver,CO,Existing
+2024-06-15,Product Revenue,Hardware Sales,9446.0,Denver,CO,New
+2024-06-15,Product Revenue,Hardware Sales,40941.0,Boston,MA,Existing
+2024-06-15,Product Revenue,Hardware Sales,4203.0,Boston,MA,New
+2024-06-15,Product Revenue,Hardware Sales,22512.0,Atlanta,GA,Existing
+2024-06-15,Product Revenue,Hardware Sales,12935.0,Atlanta,GA,New
+2024-06-15,Product Revenue,Hardware Sales,17722.0,Seattle,WA,Existing
+2024-06-15,Product Revenue,Hardware Sales,11790.0,Seattle,WA,New
+2024-06-15,Product Revenue,Hardware Sales,15293.0,New York,NY,Existing
+2024-06-15,Product Revenue,Hardware Sales,4918.0,New York,NY,New
+2024-06-15,Product Revenue,Hardware Sales,11256.0,Dallas,TX,Existing
+2024-06-15,Product Revenue,Hardware Sales,3098.0,Dallas,TX,New
+2024-06-15,Product Revenue,Hardware Sales,38576.0,Chicago,IL,Existing
+2024-06-15,Project Revenue,Migration,34994.0,Denver,CO,Existing
+2024-06-15,Cloud Services,Azure Services,23071.0,Denver,CO,Existing
+2024-06-15,Cloud Services,AWS Hosting,5159.0,Chicago,IL,New
+2024-06-15,Cloud Services,Azure Services,29871.0,Boston,MA,Existing
+2024-06-15,Managed Services,Network Monitoring,9741.0,Atlanta,GA,New
+2024-06-15,Managed Services,Network Monitoring,13895.0,Seattle,WA,Existing
+2024-06-15,Managed Services,Network Monitoring,3490.0,Seattle,WA,New
+2024-06-15,Managed Services,Network Monitoring,28398.0,New York,NY,Existing
+2024-06-15,Managed Services,Network Monitoring,10962.0,New York,NY,New
+2024-06-15,Managed Services,Network Monitoring,33898.0,Dallas,TX,Existing
+2024-06-15,Managed Services,Network Monitoring,12329.0,Dallas,TX,New
+2024-06-15,Managed Services,Network Monitoring,10124.0,Chicago,IL,Existing
+2024-06-15,Managed Services,Network Monitoring,3644.0,Chicago,IL,New
+2024-06-15,Managed Services,Help Desk,34287.0,Denver,CO,Existing
+2024-06-15,Managed Services,Help Desk,10571.0,Denver,CO,New
+2024-06-15,Managed Services,Network Monitoring,26313.0,Atlanta,GA,Existing
+2024-06-15,Managed Services,Help Desk,43183.0,Boston,MA,Existing
+2024-06-15,Managed Services,Help Desk,40407.0,Atlanta,GA,Existing
+2024-06-15,Managed Services,Help Desk,11755.0,Atlanta,GA,New
+2024-06-15,Managed Services,Help Desk,16351.0,Seattle,WA,Existing
+2024-06-15,Managed Services,Help Desk,12850.0,Seattle,WA,New
+2024-06-15,Managed Services,Help Desk,28060.0,New York,NY,Existing
+2024-06-15,Managed Services,Help Desk,11708.0,New York,NY,New
+2024-06-15,Managed Services,Help Desk,23799.0,Dallas,TX,Existing
+2024-06-15,Managed Services,Help Desk,9368.0,Dallas,TX,New
+2024-06-15,Managed Services,Help Desk,10067.0,Chicago,IL,Existing
+2024-06-15,Managed Services,Help Desk,4544.0,Chicago,IL,New
+2024-06-15,Product Revenue,Software Licenses,11751.0,Denver,CO,New
+2024-06-15,Managed Services,Help Desk,10680.0,Boston,MA,New
+2024-06-15,Managed Services,Network Monitoring,4406.0,Boston,MA,New
+2024-06-15,Managed Services,Network Monitoring,28808.0,Boston,MA,Existing
+2024-06-15,Managed Services,Network Monitoring,2906.0,Denver,CO,New
+2024-06-15,Cloud Services,Azure Services,5791.0,Boston,MA,New
+2024-06-15,Cloud Services,Azure Services,9198.0,Atlanta,GA,Existing
+2024-06-15,Cloud Services,Azure Services,8356.0,Atlanta,GA,New
+2024-06-15,Cloud Services,Azure Services,37390.0,Seattle,WA,Existing
+2024-06-15,Cloud Services,Azure Services,9000.0,Seattle,WA,New
+2024-06-15,Cloud Services,Azure Services,29105.0,New York,NY,Existing
+2024-06-15,Cloud Services,Azure Services,3767.0,New York,NY,New
+2024-06-15,Cloud Services,Azure Services,48957.0,Dallas,TX,Existing
+2024-06-15,Cloud Services,Azure Services,4862.0,Dallas,TX,New
+2024-06-15,Cloud Services,Azure Services,13071.0,Chicago,IL,Existing
+2024-06-15,Cloud Services,Azure Services,7486.0,Chicago,IL,New
+2024-06-15,Cloud Services,AWS Hosting,10412.0,Denver,CO,Existing
+2024-06-15,Cloud Services,AWS Hosting,10778.0,Denver,CO,New
+2024-06-15,Cloud Services,AWS Hosting,43807.0,Boston,MA,Existing
+2024-06-15,Cloud Services,AWS Hosting,9845.0,Boston,MA,New
+2024-06-15,Cloud Services,AWS Hosting,20671.0,Atlanta,GA,Existing
+2024-06-15,Cloud Services,AWS Hosting,8800.0,Atlanta,GA,New
+2024-06-15,Cloud Services,AWS Hosting,28334.0,Seattle,WA,Existing
+2024-06-15,Cloud Services,AWS Hosting,6517.0,Seattle,WA,New
+2024-06-15,Cloud Services,AWS Hosting,11749.0,New York,NY,Existing
+2024-06-15,Cloud Services,AWS Hosting,2328.0,New York,NY,New
+2024-06-15,Cloud Services,AWS Hosting,27327.0,Dallas,TX,Existing
+2024-06-15,Cloud Services,AWS Hosting,5614.0,Dallas,TX,New
+2024-06-15,Cloud Services,AWS Hosting,41261.0,Chicago,IL,Existing
+2024-06-15,Managed Services,Network Monitoring,32486.0,Denver,CO,Existing
+2024-06-15,Cloud Services,Azure Services,3167.0,Denver,CO,New
+2024-06-15,Product Revenue,Software Licenses,38396.0,Denver,CO,Existing
