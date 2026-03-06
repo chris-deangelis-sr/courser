@@ -1,19 +1,28 @@
-Date,Vendor,Amount,Description
-2024-01-05,Microsoft,1200,Azure subscription
-2024-01-08,Amazon Web Services,3200,Cloud hosting
-2024-01-10,Office Depot,342,Supplies
-2024-01-12,Staples,198,Printer paper
-2024-01-15,Microsoft,1200,Azure subscription
-2024-01-20,Amazon Web Services,3200,Cloud hosting
-2024-02-05,Microsoft,1200,Azure subscription
-2024-02-08,Amazon Web Services,3350,Cloud hosting
-2024-02-10,Office Depot,275,Supplies
-2024-02-15,Microsoft,1200,Azure subscription
-2024-02-20,Amazon Web Services,3350,Cloud hosting
-2024-02-22,New Vendor LLC,5000,One-time setup
-2024-03-05,Microsoft,1200,Azure subscription
-2024-03-08,Amazon Web Services,3480,Cloud hosting
-2024-03-12,Office Depot,310,Supplies
-2024-03-15,Microsoft,1200,Azure subscription
-2024-03-20,Amazon Web Services,3480,Cloud hosting
-2024-03-25,New Vendor LLC,2500,Follow-up project
+Date,Vendor,Amount,Description,City,State,Category
+2024-01-05,Microsoft,1200,Azure subscription,Chicago,IL,Technology vendors
+2024-01-08,Amazon Web Services,3200,Cloud hosting,Dallas,TX,Technology vendors
+2024-01-10,Office Depot,342,Supplies,Chicago,IL,Office supplies
+2024-01-12,Staples,198,Printer paper,New York,NY,Office supplies
+2024-01-15,Microsoft,1200,Azure subscription,Seattle,WA,Technology vendors
+2024-01-18,FedEx,185,Shipping,Chicago,IL,Shipping fees
+2024-01-20,Amazon Web Services,3200,Cloud hosting,Dallas,TX,Technology vendors
+2024-01-22,Building Landlord Inc,8500,Monthly lease,New York,NY,Building lease
+2024-01-25,Facilities Corp,420,Janitorial,Chicago,IL,Building Maintenance
+2024-02-05,Microsoft,1200,Azure subscription,Chicago,IL,Technology vendors
+2024-02-08,Amazon Web Services,3350,Cloud hosting,Atlanta,GA,Technology vendors
+2024-02-10,Office Depot,275,Supplies,New York,NY,Office supplies
+2024-02-12,UPS,220,Freight,Dallas,TX,Shipping fees
+2024-02-15,Microsoft,1200,Azure subscription,Seattle,WA,Technology vendors
+2024-02-20,Amazon Web Services,3350,Cloud hosting,Dallas,TX,Technology vendors
+2024-02-22,New Vendor LLC,5000,One-time setup,Boston,MA,Professional fees
+2024-02-24,Building Landlord Inc,8500,Monthly lease,New York,NY,Building lease
+2024-02-26,Facilities Corp,420,Janitorial,Seattle,WA,Building Maintenance
+2024-03-05,Microsoft,1200,Azure subscription,Chicago,IL,Technology vendors
+2024-03-08,Amazon Web Services,3480,Cloud hosting,Atlanta,GA,Technology vendors
+2024-03-12,Office Depot,310,Supplies,Denver,CO,Office supplies
+2024-03-14,FedEx,195,Shipping,Boston,MA,Shipping fees
+2024-03-15,Microsoft,1200,Azure subscription,Seattle,WA,Technology vendors
+2024-03-20,Amazon Web Services,3480,Cloud hosting,Dallas,TX,Technology vendors
+2024-03-25,New Vendor LLC,2500,Follow-up project,Boston,MA,Professional fees
+2024-03-28,Building Landlord Inc,8500,Monthly lease,New York,NY,Building lease
+2024-03-30,Facilities Corp,435,Maintenance,Chicago,IL,Building Maintenance
