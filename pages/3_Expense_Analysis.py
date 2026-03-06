@@ -7,10 +7,7 @@ import pandas as pd
 import streamlit as st
 import plotly.express as px
 
-from components import render_sidebar_logo
-
 st.set_page_config(page_title="Expense Analysis | Courser", page_icon="💰", layout="wide")
-render_sidebar_logo()
 
 st.title("Expense Analysis")
 
@@ -80,8 +77,8 @@ if df_raw is not None:
     recurring = recurring[recurring["Months"] >= 2].sort_values("AvgMonthly", ascending=False)
     recurring = recurring.rename(columns={"AvgMonthly": "Total monthly (avg)", "Total": "Total YTD"})
 
-    st.subheader("Recurring subscriptions (descending by total monthly expense)")
-    st.dataframe(recurring[["Vendor", "Total monthly (avg)", "Total YTD", "Months"]].head(20), use_container_width=True)
+    with st.expander("**Recurring subscriptions** (descending by total monthly expense)", expanded=False):
+        st.dataframe(recurring[["Vendor", "Total monthly (avg)", "Total YTD", "Months"]].head(20), use_container_width=True)
 
     # KPIs
     st.subheader("Key metrics")
