@@ -12,13 +12,14 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
+# Logo at top of sidebar; page links appear below via st.navigation
 render_sidebar_logo()
 
-st.title("Welcome to Courser")
-st.markdown(
-    "Use the **sidebar** to navigate between:  \n"
-    "- **Financial Close** – Close roadmap, file automatching, and export  \n"
-    "- **Revenue Forecasting** – Managed IT Services revenue forecast and interpretability  \n"
-    "- **Expense Analysis** – Upload, categorize, and analyze expenses  \n"
-)
-st.info("Select a page from the sidebar to get started.")
+pages = [
+    st.Page("pages/getting_started.py", title="Getting Started"),
+    st.Page("pages/1_Financial_Close.py", title="Financial Close"),
+    st.Page("pages/2_Revenue_Forecasting.py", title="Revenue Forecasting"),
+    st.Page("pages/3_Expense_Analysis.py", title="Expense Analysis"),
+]
+pg = st.navigation(pages, position="sidebar")
+pg.run()
