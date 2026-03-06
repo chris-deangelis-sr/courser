@@ -1,0 +1,25 @@
+Date,Category,Subcategory,Amount
+2024-01-15,Managed Services,Help Desk,45000
+2024-01-15,Managed Services,Network Monitoring,28000
+2024-01-20,Cloud Services,AWS Hosting,32000
+2024-01-20,Cloud Services,Azure Services,18500
+2024-01-25,Project Revenue,Implementation,42000
+2024-01-25,Project Revenue,Migration,28000
+2024-01-28,Product Revenue,Hardware Sales,15500
+2024-01-28,Product Revenue,Software Licenses,8200
+2024-02-15,Managed Services,Help Desk,46500
+2024-02-15,Managed Services,Network Monitoring,29000
+2024-02-20,Cloud Services,AWS Hosting,33500
+2024-02-20,Cloud Services,Azure Services,19200
+2024-02-25,Project Revenue,Implementation,38000
+2024-02-25,Project Revenue,Migration,31000
+2024-02-28,Product Revenue,Hardware Sales,16800
+2024-02-28,Product Revenue,Software Licenses,9100
+2024-03-15,Managed Services,Help Desk,47800
+2024-03-15,Managed Services,Network Monitoring,29500
+2024-03-20,Cloud Services,AWS Hosting,34800
+2024-03-20,Cloud Services,Azure Services,19800
+2024-03-25,Project Revenue,Implementation,41000
+2024-03-25,Project Revenue,Migration,32500
+2024-03-28,Product Revenue,Hardware Sales,17200
+2024-03-28,Product Revenue,Software Licenses,9500
